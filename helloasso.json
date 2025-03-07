@@ -1535,6 +1535,7 @@
         "tags": [
           "Organisation"
         ],
+        "summary": "",
         "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
         "parameters": [
           {
@@ -1588,7 +1589,6 @@
             "description": "Not Found"
           }
         },
-        "summary": "",
         "security": [
           {
             "OAuth2": []
@@ -1601,6 +1601,7 @@
         "tags": [
           "Organisation"
         ],
+        "summary": "",
         "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
         "parameters": [
           {
@@ -1643,7 +1644,6 @@
             "description": "Not Found"
           }
         },
-        "summary": "",
         "security": [
           {
             "OAuth2": []
@@ -1654,6 +1654,7 @@
         "tags": [
           "Organization legal informations"
         ],
+        "summary": "Update the organization legal information configuration",
         "description": "<br/><br/><b>Your token must have one of these roles : </b><br/>OrganizationAdmin<br/><br/>If you are an <b>association</b>, you can obtain these roles with your client.<br/>If you are a <b>partner</b>, you can obtain these roles by the authorize flow.<br/><br/><b>Your clientId must be allowed all of those privileges : </b> <br/> OrganizationAdministration<br/><br/>",
         "parameters": [
           {
@@ -2536,7 +2537,7 @@
           {
             "name": "sendRefundMail",
             "in": "query",
-            "description": "Whether a refund mail must be send or not.",
+            "description": "Whether a refund mail must be sent or not.",
             "schema": {
               "type": "boolean",
               "default": true
@@ -2545,7 +2546,7 @@
           {
             "name": "amount",
             "in": "query",
-            "description": "The amount in euros to refund. Enter this amount only for a partial refund for stripe. If not filled in then the entire payment is refunded",
+            "description": "The amount in cents to refund. Enter this amount only for a partial refund for stripe. If not filled in then the entire payment is refunded",
             "schema": {
               "type": "integer",
               "format": "int32",
@@ -2822,6 +2823,62 @@
         ]
       }
     },
+    "/organizations/{organizationSlug}/tax-receipt/fiscal-receipt-transmitter": {
+      "put": {
+        "tags": [
+          "Tax receipt"
+        ],
+        "description": "<br/><br/><b>Your token must have one of these roles : </b><br/>OrganizationAdmin<br/><br/>If you are an <b>association</b>, you can obtain these roles with your client.<br/>If you are a <b>partner</b>, you can obtain these roles by the authorize flow.<br/><br/><b>Your clientId must be allowed all of those privileges : </b> <br/> OrganizationAdministration<br/><br/>",
+        "parameters": [
+          {
+            "name": "organizationSlug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
+          },
+          "403": {
+            "description": "The JWT token hasn't the privileges or Roles for this action"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
     "/organizations/{organizationSlug}/tax-receipt/configuration": {
       "get": {
         "tags": [
@@ -2844,17 +2901,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.OrganizationFiscalReceiptOptionsConfiguration"
+                  "$ref": "#/components/schemas/HelloAsso.Core.Accounts.TaxReceipts.OrganizationFiscalReceiptOptionsConfiguration"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.OrganizationFiscalReceiptOptionsConfiguration"
+                  "$ref": "#/components/schemas/HelloAsso.Core.Accounts.TaxReceipts.OrganizationFiscalReceiptOptionsConfiguration"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.OrganizationFiscalReceiptOptionsConfiguration"
+                  "$ref": "#/components/schemas/HelloAsso.Core.Accounts.TaxReceipts.OrganizationFiscalReceiptOptionsConfiguration"
                 }
               }
             }
@@ -3205,6 +3262,37 @@
   },
   "components": {
     "schemas": {
+      "HaTrust.Contract.LegalInformation.Address.AddressDto": {
+        "type": "object",
+        "properties": {
+          "line": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "zipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "countryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "countryAlpha3": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "HelloAsso.Api.V5.Models.Account.CompanyLegalStatusModel": {
         "type": "object",
         "properties": {
@@ -3967,37 +4055,37 @@
           },
           "formPublicationStartDateMin": {
             "type": "string",
-            "description": "The minimum publication date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
+            "description": "The inclusive minimum publication date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
             "format": "date-time",
             "nullable": true
           },
           "formPublicationStartDateMax": {
             "type": "string",
-            "description": "The maximum publication date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
+            "description": "The exclusive maximum publication date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
             "format": "date-time",
             "nullable": true
           },
           "formStartDateMin": {
             "type": "string",
-            "description": "The minimum start date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
+            "description": "The inclusive minimum start date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
             "format": "date-time",
             "nullable": true
           },
           "formStartDateMax": {
             "type": "string",
-            "description": "The maximum start date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
+            "description": "The exclusive maximum start date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
             "format": "date-time",
             "nullable": true
           },
           "formEndDateMax": {
             "type": "string",
-            "description": "The maximum end date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
+            "description": "The exclusive maximum end date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
             "format": "date-time",
             "nullable": true
           },
           "formEndDateMin": {
             "type": "string",
-            "description": "The minimum end date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
+            "description": "The inclusive minimum end date of the forms, format \"yyyy-MM-ddTHH:mm:ss.fffK\"",
             "format": "date-time",
             "nullable": true
           },
@@ -4838,8 +4926,7 @@
           },
           "acceptOpenMonthlyDonation": {
             "type": "boolean",
-            "description": "Whether the user will be allowed to make a monthly open donation for donation forms",
-            "nullable": true
+            "description": "Whether the user will be allowed to make a monthly open donation for donation forms"
           },
           "allowComment": {
             "type": "boolean",
@@ -5260,7 +5347,21 @@
         },
         "additionalProperties": false
       },
+      "HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody": {
+        "type": "object",
+        "properties": {
+          "isHelloAssoFiscalReceiptTransmitter": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationLegalInformationConfigurationBody": {
+        "required": [
+          "allowIfiTaxReductions",
+          "isColuche",
+          "legalStructureId"
+        ],
         "type": "object",
         "properties": {
           "legalStructureId": {
@@ -5272,10 +5373,6 @@
           },
           "allowIfiTaxReductions": {
             "type": "boolean"
-          },
-          "isHelloassoTransmitter": {
-            "type": "boolean",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -6712,24 +6809,31 @@
         "additionalProperties": false,
         "description": "PublicNameTagModel class"
       },
-      "HelloAsso.Models.Accounts.OrganizationLegalInformations.FiscalReceiptFormatOptionModel": {
+      "HelloAsso.Core.Accounts.TaxReceipts.OrganizationFiscalReceiptOptionsConfiguration": {
         "type": "object",
         "properties": {
-          "date": {
+          "purpose": {
             "type": "string",
             "nullable": true
           },
-          "order": {
-            "type": "string",
+          "cerfaTypeId": {
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           },
-          "root": {
-            "type": "string",
+          "joCategoryId": {
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           },
-          "separator": {
-            "type": "string",
-            "nullable": true
+          "formatOptionModel": {
+            "$ref": "#/components/schemas/HelloAsso.Models.Payments.CashIn.FiscalReceipt.FiscalReceiptFormatOption"
+          },
+          "signatoryModel": {
+            "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.FiscalReceiptSignatoryModel"
+          },
+          "addressModel": {
+            "$ref": "#/components/schemas/HaTrust.Contract.LegalInformation.Address.AddressDto"
           }
         },
         "additionalProperties": false
@@ -6752,35 +6856,6 @@
           "fileUrl": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Models.Accounts.OrganizationLegalInformations.OrganizationFiscalReceiptOptionsConfiguration": {
-        "type": "object",
-        "properties": {
-          "purpose": {
-            "type": "string",
-            "nullable": true
-          },
-          "cerfaTypeId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "joCategoryId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "formatOptionModel": {
-            "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.FiscalReceiptFormatOptionModel"
-          },
-          "signatoryModel": {
-            "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.FiscalReceiptSignatoryModel"
-          },
-          "addressModel": {
-            "$ref": "#/components/schemas/HelloAsso.Models.Compliance.V2.Common.Address.AddressModelSnapshot"
           }
         },
         "additionalProperties": false
@@ -6827,39 +6902,34 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Models.Compliance.V2.Common.Address.AddressModelSnapshot": {
-        "type": "object",
-        "properties": {
-          "line": {
-            "type": "string",
-            "nullable": true
-          },
-          "city": {
-            "type": "string",
-            "nullable": true
-          },
-          "zipCode": {
-            "type": "string",
-            "nullable": true
-          },
-          "country": {
-            "type": "string",
-            "nullable": true
-          },
-          "isoCountry": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "HelloAsso.Models.Enums.GlobalRole": {
         "enum": [
           "OrganizationAdmin",
           "FormAdmin"
         ],
         "type": "string"
+      },
+      "HelloAsso.Models.Payments.CashIn.FiscalReceipt.FiscalReceiptFormatOption": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "nullable": true
+          },
+          "order": {
+            "type": "string",
+            "nullable": true
+          },
+          "root": {
+            "type": "string",
+            "nullable": true
+          },
+          "separator": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "HelloAsso.Models.Shared.GeoLocation": {
         "type": "object",

@@ -45,11 +45,12 @@ jobs:
             echo "No changes to commit for ${{ matrix.sdk.name }}"
           else
             git commit -m "Update ${{ matrix.sdk.name }} SDK from OpenAPI Generator"
-            git push origin main
+            git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/HelloAsso/${{ matrix.sdk.repo }}.git main
           fi
 
   update-readme:
     runs-on: ubuntu-latest
+    needs: update-sdks
     steps:
       - name: Checkout
         uses: actions/checkout@v4

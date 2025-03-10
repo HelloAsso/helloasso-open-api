@@ -9,7 +9,7 @@ async function uploadToReadMe(jsonString) {
     const config = {
         headers: {
             'accept': 'application/json',
-            'x-readme-version': 'v1',
+            'x-readme-version': 'v5',
             'Authorization': `Basic ${Buffer.from(`${process.env.README_API_KEY}:`).toString('base64')}`
         }
     };

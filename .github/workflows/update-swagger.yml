@@ -15,7 +15,6 @@ jobs:
           - { name: "php", repo: "helloasso-php" }
           - { name: "node", repo: "helloasso-node" }
           - { name: "python", repo: "helloasso-python", options: '--additional-properties=packageName=helloasso-python' }
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4

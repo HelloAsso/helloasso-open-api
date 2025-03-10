@@ -12,9 +12,9 @@ jobs:
     strategy:
       matrix:
         sdk: 
-          - { name: "php", repo: "helloasso-php" }
-          - { name: "node", repo: "helloasso-node" }
-          - { name: "python", repo: "helloasso-python", options: '--additional-properties=packageName=helloasso-python' }
+          - { name: "php", language: 'php', repo: "helloasso-php" }
+          - { name: "node", language: 'javascript', repo: "helloasso-node" }
+          - { name: "python", language: 'python', repo: "helloasso-python", options: '--additional-properties=packageName=helloasso-python' }
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,7 +33,7 @@ jobs:
 
       - name: Generate ${{ matrix.sdk.name }} SDK 
         run: |
-          openapi-generator-cli generate -i helloasso.json -g javascript -o ${{ matrix.sdk.repo }} ${{ matrix.sdk.options || '' }}
+          openapi-generator-cli generate -i helloasso.json -g ${{ matrix.sdk.language }} -o ${{ matrix.sdk.repo }} ${{ matrix.sdk.options || '' }}
 
       - name: Commit and push changes if needed for ${{ matrix.sdk.name }}
         run: |

@@ -1,0 +1,71 @@
+name: Update ReadMe & SDK
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  setup-environment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout API repository
+        uses: actions/checkout@v4
+
+      - name: Install OpenAPI Generator
+        run: |
+          npm install @openapitools/openapi-generator-cli -g
+          openapi-generator-cli version
+
+  update-sdk:
+    runs-on: ubuntu-latest
+    needs: setup-environment
+    strategy:
+      matrix:
+        sdk: 
+          - { name: "php", repo: "helloasso-php" }
+          - { name: "node", repo: "helloasso-node" }
+          - { name: "python", repo: "helloasso-python", options: '--additional-properties=packageName=helloasso-python' }
+
+    steps:
+      - name: Checkout ${{ matrix.sdk.name }} SDK repository
+        uses: actions/checkout@v4
+        with:
+          repository: HelloAsso/${{ matrix.sdk.repo }}
+          path: ${{ matrix.sdk.repo }}
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Generate ${{ matrix.sdk.name }} SDK 
+        run: |
+          openapi-generator-cli generate -i helloasso.json -g javascript -o ${{ matrix.sdk.repo }} ${{ matrix.sdk.options || '' }}
+
+      - name: Commit and push changes if needed for ${{ matrix.sdk.name }}
+        run: |
+          cd ${{ matrix.sdk.repo }}
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit for ${{ matrix.sdk.name }}"
+          else
+            git commit -m "Update ${{ matrix.sdk.name }} SDK from OpenAPI Generator"
+            git push origin main
+          fi
+
+  update-readme:
+    runs-on: ubuntu-latest
+    needs: setup-environment 
+    steps:
+      - name: Install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependancies
+        run: npm install
+
+      - name: Update ReadMe
+        env:
+          README_API_KEY: ${{ secrets.README_API_KEY }}
+          API_ID: ${{ secrets.API_ID }}
+        run: node index.js

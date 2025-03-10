@@ -60,7 +60,7 @@ jobs:
         - name: Generate node SDK
           run: |
             openapi-generator-cli generate -i helloasso.json -g javascript -o helloasso-node
-  
+
         - name: Commit and push changes if needed for node
           run: |
             cd helloasso-node

@@ -50,53 +50,53 @@ jobs:
             git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/HelloAsso/helloasso-php.git main
           fi
 
-        - name: Checkout node SDK repository
-          uses: actions/checkout@v4
-          with:
-            repository: HelloAsso/helloasso-node
-            path: helloasso-node
-            token: ${{ secrets.GH_TOKEN }}
+      - name: Checkout node SDK repository
+        uses: actions/checkout@v4
+        with:
+          repository: HelloAsso/helloasso-node
+          path: helloasso-node
+          token: ${{ secrets.GH_TOKEN }}
   
-        - name: Generate node SDK
-          run: |
-            openapi-generator-cli generate -i helloasso.json -g javascript -o helloasso-node
+      - name: Generate node SDK
+        run: |
+          openapi-generator-cli generate -i helloasso.json -g javascript -o helloasso-node
 
-        - name: Commit and push changes if needed for node
-          run: |
-            cd helloasso-node
-            git config user.name "GitHub Actions"
-            git config user.email "actions@github.com"
-            git add .
-            if git diff --cached --quiet; then
-              echo "No changes to commit for node"
-            else
-              git commit -m "Update node SDK from OpenAPI Generator"
-              git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/HelloAsso/helloasso-node.git main
-            fi
+      - name: Commit and push changes if needed for node
+        run: |
+          cd helloasso-node
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit for node"
+          else
+            git commit -m "Update node SDK from OpenAPI Generator"
+            git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/HelloAsso/helloasso-node.git main
+          fi
 
-        - name: Checkout python SDK repository
-          uses: actions/checkout@v4
-          with:
-            repository: HelloAsso/helloasso-python
-            path: helloasso-python
-            token: ${{ secrets.GH_TOKEN }}
+      - name: Checkout python SDK repository
+        uses: actions/checkout@v4
+        with:
+          repository: HelloAsso/helloasso-python
+          path: helloasso-python
+          token: ${{ secrets.GH_TOKEN }}
   
-        - name: Generate python SDK
-          run: |
-            openapi-generator-cli generate -i helloasso.json -g python -o helloasso-python --additional-properties=packageName=helloasso-python
+      - name: Generate python SDK
+        run: |
+          openapi-generator-cli generate -i helloasso.json -g python -o helloasso-python --additional-properties=packageName=helloasso-python
   
-        - name: Commit and push changes if needed for python
-          run: |
-            cd helloasso-python
-            git config user.name "GitHub Actions"
-            git config user.email "actions@github.com"
-            git add .
-            if git diff --cached --quiet; then
-              echo "No changes to commit for python"
-            else
-              git commit -m "Update python SDK from OpenAPI Generator"
-              git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/HelloAsso/helloasso-python.git main
-            fi
+      - name: Commit and push changes if needed for python
+        run: |
+          cd helloasso-python
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit for python"
+          else
+            git commit -m "Update python SDK from OpenAPI Generator"
+            git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/HelloAsso/helloasso-python.git main
+          fi
 
       - name: Update ReadMe
         env:

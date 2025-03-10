@@ -1,5 +1,6 @@
 import 'dotenv/config'
 import axios from "axios";
+import fs from "fs";
 
 async function uploadToReadMe(jsonString) {
     const formData = new FormData();

@@ -3927,6 +3927,11 @@
             "description": "The organization is authenticated. Property returned only when asked by an organization admin.",
             "nullable": true
           },
+          "isCashInCompliant": {
+            "type": "boolean",
+            "description": "If transaction can be init on the organization or not.",
+            "nullable": true
+          },
           "banner": {
             "type": "string",
             "description": "The organization banner",
@@ -5267,6 +5272,11 @@
           "isAuthenticated": {
             "type": "boolean",
             "description": "The organization is authenticated. Property returned only when asked by an organization admin.",
+            "nullable": true
+          },
+          "isCashInCompliant": {
+            "type": "boolean",
+            "description": "If transaction can be init on the organization or not.",
             "nullable": true
           },
           "banner": {

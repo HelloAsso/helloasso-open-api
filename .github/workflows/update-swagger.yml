@@ -83,7 +83,7 @@ jobs:
   
       - name: Generate python SDK
         run: |
-          openapi-generator-cli generate -i helloasso.json -g python -o helloasso-python --additional-properties=packageName=helloasso-python
+          openapi-generator-cli generate -i helloasso.json -g python -o helloasso-python --additional-properties=packageName=helloasso_python
   
       - name: Commit and push changes if needed for python
         run: |

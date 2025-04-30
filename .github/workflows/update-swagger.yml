@@ -31,7 +31,7 @@ jobs:
         with:
           repository: HelloAsso/helloasso-php
           path: helloasso-php
-          fetch-tags: true
+          fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Generate php SDK
@@ -63,7 +63,7 @@ jobs:
         with:
           repository: HelloAsso/helloasso-node
           path: helloasso-node
-          fetch-tags: true
+          fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
   
       - name: Generate node SDK
@@ -98,7 +98,7 @@ jobs:
         with:
           repository: HelloAsso/helloasso-python
           path: helloasso-python
-          fetch-tags: true
+          fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
   
       - name: Generate python SDK

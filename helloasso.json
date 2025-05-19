@@ -1473,6 +1473,118 @@
         ]
       }
     },
+    "/organizations/{organizationSlug}/configurations": {
+      "get": {
+        "tags": [
+          "Organization - Public configurations"
+        ],
+        "description": "<br/><br/><b>Your token must have one of these roles : </b><br/>OrganizationAdmin<br/><br/>If you are an <b>association</b>, you can obtain these roles with your client.<br/>If you are a <b>partner</b>, you can obtain these roles by the authorize flow.<br/><br/><b>Your clientId must be allowed all of those privileges : </b> <br/> OrganizationAdministration<br/><br/>",
+        "parameters": [
+          {
+            "name": "organizationSlug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "title": "List<OrganizationPublicConfigurationModel>",
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "title": "List<OrganizationPublicConfigurationModel>",
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "title": "List<OrganizationPublicConfigurationModel>",
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationModel"
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
+          },
+          "403": {
+            "description": "The JWT token hasn't the privileges or Roles for this action"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Organization - Public configurations"
+        ],
+        "description": "<br/><br/><b>Your token must have one of these roles : </b><br/>OrganizationAdmin<br/><br/>If you are an <b>association</b>, you can obtain these roles with your client.<br/>If you are a <b>partner</b>, you can obtain these roles by the authorize flow.<br/><br/><b>Your clientId must be allowed all of those privileges : </b> <br/> OrganizationAdministration<br/><br/>",
+        "parameters": [
+          {
+            "name": "organizationSlug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationsRequest"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationsRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationsRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationsRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
+          },
+          "403": {
+            "description": "The JWT token hasn't the privileges or Roles for this action"
+          }
+        }
+      }
+    },
     "/organizations/legal-informations/legal-structures": {
       "get": {
         "tags": [
@@ -5513,6 +5625,39 @@
         },
         "additionalProperties": false
       },
+      "HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationKey": {
+        "enum": [
+          "DonationSepaEnabled",
+          "AdhesionSepaEnabled"
+        ],
+        "type": "string"
+      },
+      "HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationKey"
+          },
+          "value": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationsRequest": {
+        "type": "object",
+        "properties": {
+          "configurations": {
+            "title": "List<OrganizationPublicConfigurationModel>",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organizations.OrganizationPublicConfigurationModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "HelloAsso.Api.V5.Models.PartnerStatisticsModel": {
         "type": "object",
         "properties": {
@@ -6184,6 +6329,9 @@
           },
           "meta": {
             "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+          },
+          "place": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PlaceModel"
           }
         },
         "additionalProperties": false
@@ -6277,6 +6425,9 @@
           },
           "meta": {
             "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+          },
+          "place": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PlaceModel"
           }
         },
         "additionalProperties": false
@@ -6434,6 +6585,9 @@
           },
           "meta": {
             "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+          },
+          "place": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PlaceModel"
           }
         },
         "additionalProperties": false

@@ -5148,6 +5148,12 @@
             "type": "boolean",
             "description": "Whether user are allowed to personally contribute to this form (only for donation and crowdfunding)."
           },
+          "displayVersion": {
+            "type": "integer",
+            "description": "The form display version (only for donation).",
+            "format": "int32",
+            "nullable": true
+          },
           "maxEntries": {
             "type": "integer",
             "description": "Indicates the maximum available entries for the whole form. Null means unlimited entries.",

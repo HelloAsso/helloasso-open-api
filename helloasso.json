@@ -51,17 +51,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.CheckoutIntentResponse"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.CheckoutIntentResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.CheckoutIntentResponse"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.CheckoutIntentResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.CheckoutIntentResponse"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.CheckoutIntentResponse"
                 }
               }
             }
@@ -101,22 +101,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.InitCheckoutBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutBody"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.InitCheckoutBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutBody"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.InitCheckoutBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutBody"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.InitCheckoutBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutBody"
               }
             }
           }
@@ -127,17 +127,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.InitCheckoutResponse"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.InitCheckoutResponse"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.InitCheckoutResponse"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutResponse"
                 }
               }
             }
@@ -188,22 +188,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.ListFormsRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.ListFormsRequest"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.ListFormsRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.ListFormsRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.ListFormsRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.ListFormsRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.ListFormsRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.ListFormsRequest"
               }
             }
           }
@@ -214,17 +214,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -275,22 +275,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.ListOrganizationsRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.ListOrganizationsRequest"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.ListOrganizationsRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.ListOrganizationsRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.ListOrganizationsRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.ListOrganizationsRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.ListOrganizationsRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.ListOrganizationsRequest"
               }
             }
           }
@@ -301,17 +301,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -353,7 +353,7 @@
             "description": "The form type to create - only Event type is supported",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
             }
           }
         ],
@@ -362,22 +362,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormQuickCreateRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateRequest"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormQuickCreateRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormQuickCreateRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormQuickCreateRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateRequest"
               }
             }
           }
@@ -388,17 +388,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormQuickCreateModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormQuickCreateModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormQuickCreateModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateModel"
                 }
               }
             }
@@ -415,6 +415,76 @@
             "OAuth2": []
           }
         ]
+      }
+    },
+    "/organizations/{organizationSlug}/forms/{formType}/{formSlug}/state": {
+      "put": {
+        "tags": [
+          "Forms"
+        ],
+        "summary": "Update a form state",
+        "description": "Update form state.<br/><br/><b>Your token must have one of these roles : </b><br/>FormAdmin<br/>OrganizationAdmin<br/><br/>If you are an <b>association</b>, you can obtain these roles with your client.<br/>If you are a <b>partner</b>, you can obtain these roles by the authorize flow.<br/><br/><b>Your clientId must be allowed all of those privileges : </b> <br/> FormAdministration<br/><br/>",
+        "parameters": [
+          {
+            "name": "organizationSlug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "formSlug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "formType",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormStateRequest"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormStateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormStateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormStateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
+          },
+          "403": {
+            "description": "The JWT token hasn't the privileges or Roles for this action"
+          }
+        }
       }
     },
     "/organizations/{organizationSlug}/forms/{formType}/{formSlug}/public": {
@@ -438,7 +508,7 @@
             "in": "path",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
             }
           },
           {
@@ -456,17 +526,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormPublicModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormPublicModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormPublicModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormPublicModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormPublicModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormPublicModel"
                 }
               }
             }
@@ -510,7 +580,7 @@
               "title": "List<FormState>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormState"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormState"
               }
             }
           }
@@ -523,7 +593,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
                   }
                 }
               },
@@ -531,7 +601,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
                   }
                 }
               },
@@ -539,7 +609,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
                   }
                 }
               }
@@ -584,7 +654,7 @@
               "title": "List<FormState>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormState"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormState"
               }
             }
           },
@@ -596,7 +666,7 @@
               "title": "List<FormType>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
               }
             }
           },
@@ -635,17 +705,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -698,17 +768,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemDetail"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemDetail"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemDetail"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemDetail"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemDetail"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemDetail"
                 }
               }
             }
@@ -759,7 +829,7 @@
             "description": "The form type CrowdFunding, Membership, Event, Donation, PaymentForm, Checkout, Shop",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
             }
           },
           {
@@ -824,7 +894,7 @@
               "title": "List<TierType>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.TierType"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TierType"
               }
             }
           },
@@ -836,7 +906,7 @@
               "title": "List<ItemState>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.ItemState"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.ItemState"
               }
             }
           },
@@ -862,7 +932,7 @@
             "in": "query",
             "description": "Sort forms items by ascending or descending order. Default is descending",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortOrder"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortOrder"
             }
           },
           {
@@ -870,7 +940,7 @@
             "in": "query",
             "description": "Sort forms items by a specific field (Date or UpdateDate). Default is date",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortField"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortField"
             }
           },
           {
@@ -995,7 +1065,7 @@
               "title": "List<TierType>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.TierType"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TierType"
               }
             }
           },
@@ -1007,7 +1077,7 @@
               "title": "List<ItemState>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.ItemState"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.ItemState"
               }
             }
           },
@@ -1033,7 +1103,7 @@
             "in": "query",
             "description": "Sort organizations items by ascending or descending order. Default is descending",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortOrder"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortOrder"
             }
           },
           {
@@ -1041,7 +1111,7 @@
             "in": "query",
             "description": "Sort organizations items by a specific field (Date or UpdateDate). Default is date",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortField"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortField"
             }
           },
           {
@@ -1111,17 +1181,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderDetail"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderDetail"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderDetail"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderDetail"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderDetail"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderDetail"
                 }
               }
             }
@@ -1172,7 +1242,7 @@
             "description": "The form type CrowdFunding, Membership, Event, Donation, PaymentForm, Checkout, Shop",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
             }
           },
           {
@@ -1243,7 +1313,7 @@
             "in": "query",
             "description": "Sort forms orders by ascending or descending order. Default is descending",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortOrder"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortOrder"
             }
           },
           {
@@ -1262,17 +1332,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -1370,7 +1440,7 @@
               "title": "List<FormType>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
               }
             }
           },
@@ -1388,7 +1458,7 @@
             "in": "query",
             "description": "Sort organizations orders by ascending or descending order. Default is descending",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortOrder"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortOrder"
             }
           },
           {
@@ -1407,17 +1477,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -1473,143 +1543,31 @@
         ]
       }
     },
-    "/organizations/legal-informations/legal-structures": {
+    "/organizations/{organizationSlug}/cash-out/{cashOutId}/export": {
       "get": {
         "tags": [
-          "Organisation"
+          "Organization cash-out management"
         ],
-        "summary": "Obtenir la structure juridique d'une organisation visible.",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "title": "List<OrganizationLegalStructuresModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.OrganizationLegalStructuresModel"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "title": "List<OrganizationLegalStructuresModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.OrganizationLegalStructuresModel"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "title": "List<OrganizationLegalStructuresModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.OrganizationLegalStructuresModel"
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
-          },
-          "403": {
-            "description": "The JWT token hasn't the privileges or Roles for this action"
-          },
-          "404": {
-            "description": "Not Found"
-          }
-        },
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/legal-informations/tax-information-texts": {
-      "get": {
-        "tags": [
-          "Organisation"
-        ],
-        "summary": "Obtenir les textes d'information fiscale de l'organisation.",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
-        "parameters": [
-          {
-            "name": "organizationSlug",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "title": "List<TaxInformationText>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.TaxInformationText"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "title": "List<TaxInformationText>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.TaxInformationText"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "title": "List<TaxInformationText>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.TaxInformationText"
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
-          },
-          "403": {
-            "description": "The JWT token hasn't the privileges or Roles for this action"
-          },
-          "404": {
-            "description": "Not Found"
-          }
-        },
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/legal-informations/{organizationSlug}/configuration": {
-      "get": {
-        "tags": [
-          "Organisation"
-        ],
-        "summary": "Obtenir la configuration des informations juridiques de l'organisation.",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
+        "summary": "Download the cash-out details as a CSV, Excel or Json.",
+        "description": "<br/><br/><b>Connected client requirement :</b><br/>Must be authenticated as a USER.<br/><br/><b>Your token must have one of these roles : </b><br/>OrganizationAdmin<br/><br/>If you are an <b>association</b>, you can obtain these roles with your client.<br/>If you are a <b>partner</b>, you can obtain these roles by the authorize flow.<br/><br/><b>Your clientId must be allowed all of those privileges : </b> <br/> OrganizationAdministration<br/><br/>",
         "parameters": [
           {
             "name": "organizationSlug",
             "in": "path",
+            "description": "The organization slug",
             "required": true,
             "schema": {
               "type": "string"
+            }
+          },
+          {
+            "name": "cashOutId",
+            "in": "path",
+            "description": "The cash-out id to details",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -1619,17 +1577,29 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.OrganizationLegalInformationConfiguration"
+                  "title": "List<CashoutExportRowModel>",
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportRowModel"
+                  }
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.OrganizationLegalInformationConfiguration"
+                  "title": "List<CashoutExportRowModel>",
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportRowModel"
+                  }
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.OrganizationLegalInformationConfiguration"
+                  "title": "List<CashoutExportRowModel>",
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportRowModel"
+                  }
                 }
               }
             }
@@ -1639,76 +1609,8 @@
           },
           "403": {
             "description": "The JWT token hasn't the privileges or Roles for this action"
-          },
-          "404": {
-            "description": "Not Found"
           }
-        },
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      },
-      "put": {
-        "tags": [
-          "Organisation"
-        ],
-        "summary": "Mettre à jour la configuration des informations juridiques de l'organisation.",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
-        "parameters": [
-          {
-            "name": "organizationSlug",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationLegalInformationConfigurationBody"
-              }
-            },
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationLegalInformationConfigurationBody"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationLegalInformationConfigurationBody"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationLegalInformationConfigurationBody"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          },
-          "401": {
-            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
-          },
-          "403": {
-            "description": "The JWT token hasn't the privileges or Roles for this action"
-          },
-          "404": {
-            "description": "Not Found"
-          }
-        },
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
+        }
       }
     },
     "/organizations/{organizationSlug}": {
@@ -1735,17 +1637,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organization.OrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organization.OrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organization.OrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationModel"
                 }
               }
             }
@@ -1775,22 +1677,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Accounts.Clients.PublicPutApiClientRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.Clients.PublicPutApiClientRequest"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Accounts.Clients.PublicPutApiClientRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.Clients.PublicPutApiClientRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Accounts.Clients.PublicPutApiClientRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.Clients.PublicPutApiClientRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Accounts.Clients.PublicPutApiClientRequest"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.Clients.PublicPutApiClientRequest"
               }
             }
           }
@@ -1836,22 +1738,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.PostApiUrlNotificationBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.PostApiUrlNotificationBody"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.PostApiUrlNotificationBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.PostApiUrlNotificationBody"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.PostApiUrlNotificationBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.PostApiUrlNotificationBody"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.PostApiUrlNotificationBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.PostApiUrlNotificationBody"
               }
             }
           }
@@ -1862,17 +1764,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiUrlNotificationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiUrlNotificationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiUrlNotificationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
                 }
               }
             }
@@ -1911,7 +1813,7 @@
             "in": "query",
             "description": "Do not specify a notification type to remove the main notification Url",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiNotificationType"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiNotificationType"
             }
           }
         ],
@@ -1945,22 +1847,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.PostApiUrlNotificationBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.PostApiUrlNotificationBody"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.PostApiUrlNotificationBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.PostApiUrlNotificationBody"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.PostApiUrlNotificationBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.PostApiUrlNotificationBody"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.PostApiUrlNotificationBody"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.PostApiUrlNotificationBody"
               }
             }
           }
@@ -1971,17 +1873,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiUrlNotificationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiUrlNotificationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiUrlNotificationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
                 }
               }
             }
@@ -2011,7 +1913,7 @@
             "in": "query",
             "description": "Do not specify a notification type to remove the main notification Url",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiNotificationType"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiNotificationType"
             }
           }
         ],
@@ -2046,17 +1948,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Partners.PartnerPublicModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Partners.PartnerPublicModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Partners.PartnerPublicModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Partners.PartnerPublicModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Partners.PartnerPublicModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Partners.PartnerPublicModel"
                 }
               }
             }
@@ -2108,17 +2010,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -2171,17 +2073,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.PaymentDetail"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.PaymentDetail"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.PaymentDetail"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail"
                 }
               }
             }
@@ -2232,7 +2134,7 @@
             "description": "The form type CrowdFunding, Membership, Event, Donation, PaymentForm, Checkout, Shop",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
             }
           },
           {
@@ -2292,12 +2194,12 @@
           {
             "name": "states",
             "in": "query",
-            "description": "Filter results by states of payments\n\nAvailable values:\n* `Pending` - A payment scheduled at a later date, not yet processed.\n* `Authorized` - The payment has been authorized, validated, processed.\n* `Refused` - The payment has been refused by the bank.\n* `Unknown`\n* `Registered` - Represents a payment made offline.\r\n            Probably for an item of type\n* `Refunded` - The payment has been refunded.\n* `Refunding` - The payment is being refunded.\n* `Contested` - Payment has been contested by the contributor",
+            "description": "Filter results by states of payments\n\nAvailable values:\n* `Pending` - A payment scheduled at a later date, not yet processed.\n* `Authorized` - The payment has been authorized, validated, processed.\n* `Refused` - The payment has been refused by the bank.\n* `Unknown`\n* `Registered` - Represents a payment made offline.\n            Probably for an item of type\n* `Refunded` - The payment has been refunded.\n* `Refunding` - The payment is being refunded.\n* `Contested` - Payment has been contested by the contributor",
             "schema": {
               "title": "List<PaymentState>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentState"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentState"
               }
             }
           },
@@ -2306,7 +2208,7 @@
             "in": "query",
             "description": "Sort payments by ascending or descending order. Default is descending",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortOrder"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortOrder"
             }
           },
           {
@@ -2314,7 +2216,7 @@
             "in": "query",
             "description": "Sort payments by a specific field (Date or UpdateDate). Default is date",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortField"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortField"
             }
           },
           {
@@ -2333,17 +2235,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -2436,12 +2338,12 @@
           {
             "name": "states",
             "in": "query",
-            "description": "The payment states\n\nAvailable values:\n* `Pending` - A payment scheduled at a later date, not yet processed.\n* `Authorized` - The payment has been authorized, validated, processed.\n* `Refused` - The payment has been refused by the bank.\n* `Unknown`\n* `Registered` - Represents a payment made offline.\r\n            Probably for an item of type\n* `Refunded` - The payment has been refunded.\n* `Refunding` - The payment is being refunded.\n* `Contested` - Payment has been contested by the contributor",
+            "description": "The payment states\n\nAvailable values:\n* `Pending` - A payment scheduled at a later date, not yet processed.\n* `Authorized` - The payment has been authorized, validated, processed.\n* `Refused` - The payment has been refused by the bank.\n* `Unknown`\n* `Registered` - Represents a payment made offline.\n            Probably for an item of type\n* `Refunded` - The payment has been refunded.\n* `Refunding` - The payment is being refunded.\n* `Contested` - Payment has been contested by the contributor",
             "schema": {
               "title": "List<PaymentState>",
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentState"
+                "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentState"
               }
             }
           },
@@ -2450,7 +2352,7 @@
             "in": "query",
             "description": "Sort payments by ascending or descending order. Default is descending",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortOrder"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortOrder"
             }
           },
           {
@@ -2458,7 +2360,7 @@
             "in": "query",
             "description": "Sort payments by a specific field (Date or UpdateDate). Default is date",
             "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortField"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.SortField"
             }
           },
           {
@@ -2565,180 +2467,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Payment.RefundOperationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.RefundOperationModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Payment.RefundOperationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.RefundOperationModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Payment.RefundOperationModel"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
-          },
-          "403": {
-            "description": "The JWT token hasn't the privileges or Roles for this action"
-          }
-        },
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/{organizationSlug}/payments/search": {
-      "get": {
-        "tags": [
-          "Paiements"
-        ],
-        "summary": "Rechercher des paiements.",
-        "description": "<p>Attention : Le compte total est désactivé, nous retournons la liste des paiements et le continuationToken. </p><p>Recherchez des paiements basés sur de nombreux critères La recherche doit utiliser au moins l'un des paramètres suivants : </p><ul><li>ID de l'organisation : paiements effectués pour cette organisation </li><li>Formulaire : Paiements effectués par ce formulaire en utilisant le couple ID du formulaire et type du formulaire </li><li>ID de l'utilisateur : Paiements effectués par cet utilisateur </li><li>États : Une liste d'états de paiement à filtrer. (si vide, tous les paiements seront retournés)</li><li>Plage de dates : En utilisant du et/ou au </li><li>Requête de recherche : Une liste de mots qui doivent être contenus soit sur les noms des payeurs ou des utilisateurs ou l'email </li><li>Montant du paiement : En centimes, qui doit exactement correspondre au montant des paiements (avec ou sans la contribution) </li></ul><p>L'ordre des résultats est également personnalisable : </p><ul><li>Le champ de tri peut être la date, la date de mise à jour ou la date de création </li><li>L'ordre peut être ascendant ou descendant<br><br><b>Votre token doit avoir l'un de ces rôles : </b><br>OrganizationAdmin<br><br>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br><br><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br> AccessTransactions<br><br></li></ul>",
-        "parameters": [
-          {
-            "name": "organizationSlug",
-            "in": "path",
-            "description": "The organization slug",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "from",
-            "in": "query",
-            "description": "First Date Filter",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
-            }
-          },
-          {
-            "name": "to",
-            "in": "query",
-            "description": "End Date Filter (exclusive)",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
-            }
-          },
-          {
-            "name": "pageSize",
-            "in": "query",
-            "description": "The number of items to retrieve",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 20
-            }
-          },
-          {
-            "name": "continuationToken",
-            "in": "query",
-            "description": "Continuation Token from which we wish to retrieve results",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "formTypes",
-            "in": "query",
-            "description": "The form type CrowdFunding, Membership, Event, Donation, PaymentForm, Checkout, Shop",
-            "schema": {
-              "title": "List<FormType>",
-              "type": "array",
-              "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
-              }
-            }
-          },
-          {
-            "name": "formType",
-            "in": "query",
-            "description": "The form type CrowdFunding, Membership, Event, Donation, PaymentForm, Checkout, Shop. This parameter must be used with the parameter formId.",
-            "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
-            }
-          },
-          {
-            "name": "states",
-            "in": "query",
-            "description": "Filter results by states of payments\n\nAvailable values:\n* `Pending` - A payment scheduled at a later date, not yet processed.\n* `Authorized` - The payment has been authorized, validated, processed.\n* `Refused` - The payment has been refused by the bank.\n* `Unknown`\n* `Registered` - Represents a payment made offline.\r\n            Probably for an item of type\n* `Refunded` - The payment has been refunded.\n* `Refunding` - The payment is being refunded.\n* `Contested` - Payment has been contested by the contributor",
-            "schema": {
-              "title": "List<PaymentState>",
-              "type": "array",
-              "items": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentState"
-              }
-            }
-          },
-          {
-            "name": "userId",
-            "in": "query",
-            "description": "The User identifier",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "searchKey",
-            "in": "query",
-            "description": "Filter results on user or payer first name, last name or email.",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "amount",
-            "in": "query",
-            "description": "Amount of the payment in cents. Filter payments with exact amount with or without the contribution.",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "sortOrder",
-            "in": "query",
-            "description": "Sort payments by ascending or descending order. Default is descending",
-            "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortOrder"
-            }
-          },
-          {
-            "name": "sortField",
-            "in": "query",
-            "description": "Sort payments by a specific field (Date or UpdateDate). Default is date",
-            "schema": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.SortField"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PublicPaymentModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PublicPaymentModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PublicPaymentModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.RefundOperationModel"
                 }
               }
             }
@@ -2799,17 +2538,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Tags.InternalTagModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.InternalTagModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Tags.InternalTagModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.InternalTagModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Tags.InternalTagModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.InternalTagModel"
                 }
               }
             }
@@ -2821,262 +2560,6 @@
             "description": "The JWT token hasn't the privileges or Roles for this action"
           }
         },
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/{organizationSlug}/tax-receipt/fiscal-receipt-transmitter": {
-      "put": {
-        "tags": [
-          "Reçus fiscaux"
-        ],
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
-        "parameters": [
-          {
-            "name": "organizationSlug",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody"
-              }
-            },
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          },
-          "401": {
-            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
-          },
-          "403": {
-            "description": "The JWT token hasn't the privileges or Roles for this action"
-          },
-          "404": {
-            "description": "Not Found"
-          }
-        },
-        "summary": "Mettre à jour l'émetteur des reçus fiscaux",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/{organizationSlug}/tax-receipt/configuration": {
-      "get": {
-        "tags": [
-          "Reçus fiscaux"
-        ],
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
-        "parameters": [
-          {
-            "name": "organizationSlug",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Core.Accounts.TaxReceipts.OrganizationFiscalReceiptOptionsConfiguration"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Core.Accounts.TaxReceipts.OrganizationFiscalReceiptOptionsConfiguration"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Core.Accounts.TaxReceipts.OrganizationFiscalReceiptOptionsConfiguration"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
-          },
-          "403": {
-            "description": "The JWT token hasn't the privileges or Roles for this action"
-          },
-          "404": {
-            "description": "Not Found"
-          }
-        },
-        "summary": "Obtenir la configuration des reçus fiscaux",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      },
-      "put": {
-        "tags": [
-          "Reçus fiscaux"
-        ],
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
-        "parameters": [
-          {
-            "name": "organizationSlug",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "file",
-            "in": "query",
-            "description": "Upload File",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "binary"
-            }
-          },
-          {
-            "name": "config",
-            "in": "query",
-            "description": "config",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "type": "object"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          },
-          "400": {
-            "description": "Bad Request"
-          },
-          "401": {
-            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
-          },
-          "403": {
-            "description": "The JWT token hasn't the privileges or Roles for this action"
-          },
-          "404": {
-            "description": "Not Found"
-          },
-          "415": {
-            "description": "Client Error"
-          }
-        },
-        "summary": "Mettre à jour la configuration des reçus fiscaux",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/{organizationSlug}/tax-receipt/preview": {
-      "post": {
-        "tags": [
-          "Reçus fiscaux"
-        ],
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
-        "parameters": [
-          {
-            "name": "organizationSlug",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "file",
-            "in": "query",
-            "description": "Upload File",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "binary"
-            }
-          },
-          {
-            "name": "config",
-            "in": "query",
-            "description": "config",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "type": "object"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          },
-          "400": {
-            "description": "Bad Request"
-          },
-          "401": {
-            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
-          },
-          "403": {
-            "description": "The JWT token hasn't the privileges or Roles for this action"
-          },
-          "415": {
-            "description": "Client Error"
-          }
-        },
-        "summary": "Prévisualiser les reçus fiscaux",
         "security": [
           {
             "OAuth2": []
@@ -3099,7 +2582,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organization.OrganizationLightModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationLightModel"
                   }
                 }
               },
@@ -3107,7 +2590,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organization.OrganizationLightModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationLightModel"
                   }
                 }
               },
@@ -3115,7 +2598,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organization.OrganizationLightModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationLightModel"
                   }
                 }
               }
@@ -3150,7 +2633,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Account.OrganismCategoryModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.OrganismCategoryModel"
                   }
                 }
               },
@@ -3158,7 +2641,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Account.OrganismCategoryModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.OrganismCategoryModel"
                   }
                 }
               },
@@ -3166,7 +2649,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Account.OrganismCategoryModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.OrganismCategoryModel"
                   }
                 }
               }
@@ -3201,7 +2684,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Tags.PublicTagModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.PublicTagModel"
                   }
                 }
               },
@@ -3209,7 +2692,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Tags.PublicTagModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.PublicTagModel"
                   }
                 }
               },
@@ -3217,7 +2700,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Tags.PublicTagModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.PublicTagModel"
                   }
                 }
               }
@@ -3252,7 +2735,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Account.CompanyLegalStatusModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.CompanyLegalStatusModel"
                   }
                 }
               },
@@ -3260,7 +2743,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Account.CompanyLegalStatusModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.CompanyLegalStatusModel"
                   }
                 }
               },
@@ -3268,7 +2751,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Account.CompanyLegalStatusModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.CompanyLegalStatusModel"
                   }
                 }
               }
@@ -3287,77 +2770,133 @@
           }
         ]
       }
+    },
+    "/organizations/legal-informations/legal-structures": {
+      "get": {
+        "tags": [
+          "Organisation"
+        ],
+        "summary": "Obtenir la structure juridique d'une organisation visible.",
+        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      }
+    },
+    "/organizations/legal-informations/tax-information-texts": {
+      "get": {
+        "tags": [
+          "Organisation"
+        ],
+        "summary": "Obtenir les textes d'information fiscale de l'organisation.",
+        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      }
+    },
+    "/organizations/legal-informations/{organizationSlug}/configuration": {
+      "get": {
+        "tags": [
+          "Organisation"
+        ],
+        "summary": "Obtenir la configuration des informations juridiques de l'organisation.",
+        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "Organisation"
+        ],
+        "summary": "Mettre à jour la configuration des informations juridiques de l'organisation.",
+        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      }
+    },
+    "/organizations/{organizationSlug}/payments/search": {
+      "get": {
+        "tags": [
+          "Paiements"
+        ],
+        "summary": "Rechercher des paiements.",
+        "description": "<p>Attention : Le compte total est désactivé, nous retournons la liste des paiements et le continuationToken. </p><p>Recherchez des paiements basés sur de nombreux critères La recherche doit utiliser au moins l'un des paramètres suivants : </p><ul><li>ID de l'organisation : paiements effectués pour cette organisation </li><li>Formulaire : Paiements effectués par ce formulaire en utilisant le couple ID du formulaire et type du formulaire </li><li>ID de l'utilisateur : Paiements effectués par cet utilisateur </li><li>États : Une liste d'états de paiement à filtrer. (si vide, tous les paiements seront retournés)</li><li>Plage de dates : En utilisant du et/ou au </li><li>Requête de recherche : Une liste de mots qui doivent être contenus soit sur les noms des payeurs ou des utilisateurs ou l'email </li><li>Montant du paiement : En centimes, qui doit exactement correspondre au montant des paiements (avec ou sans la contribution) </li></ul><p>L'ordre des résultats est également personnalisable : </p><ul><li>Le champ de tri peut être la date, la date de mise à jour ou la date de création </li><li>L'ordre peut être ascendant ou descendant<br><br><b>Votre token doit avoir l'un de ces rôles : </b><br>OrganizationAdmin<br><br>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br><br><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br> AccessTransactions<br><br></li></ul>",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      }
+    },
+    "/organizations/{organizationSlug}/tax-receipt/fiscal-receipt-transmitter": {
+      "put": {
+        "tags": [
+          "Reçus fiscaux"
+        ],
+        "summary": "Mettre à jour l'émetteur des reçus fiscaux",
+        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      }
+    },
+    "/organizations/{organizationSlug}/tax-receipt/configuration": {
+      "get": {
+        "tags": [
+          "Reçus fiscaux"
+        ],
+        "summary": "Obtenir la configuration des reçus fiscaux",
+        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "Reçus fiscaux"
+        ],
+        "summary": "Mettre à jour la configuration des reçus fiscaux",
+        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      }
+    },
+    "/organizations/{organizationSlug}/tax-receipt/preview": {
+      "post": {
+        "tags": [
+          "Reçus fiscaux"
+        ],
+        "summary": "Prévisualiser les reçus fiscaux",
+        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      }
     }
   },
   "components": {
     "schemas": {
-      "HaTrust.Contract.LegalInformation.Address.AddressDto": {
-        "type": "object",
-        "properties": {
-          "line": {
-            "type": "string",
-            "nullable": true
-          },
-          "city": {
-            "type": "string",
-            "nullable": true
-          },
-          "zipCode": {
-            "type": "string",
-            "nullable": true
-          },
-          "country": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "countryName": {
-            "type": "string",
-            "nullable": true
-          },
-          "countryAlpha3": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Api.V5.Models.Account.CompanyLegalStatusModel": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "description": "Company legal status id",
-            "format": "int32"
-          },
-          "label": {
-            "type": "string",
-            "description": "Company legal status label",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false,
-        "description": "user/payer company legal status"
-      },
-      "HelloAsso.Api.V5.Models.Account.OrganismCategoryModel": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "label": {
-            "type": "string",
-            "nullable": true
-          },
-          "shortLabel": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Api.V5.Models.Accounts.Clients.ApiClientModel": {
+      "HelloAsso.Api.V5.Common.Models.Accounts.Clients.ApiClientModel": {
         "type": "object",
         "properties": {
           "id": {
@@ -3387,7 +2926,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Accounts.Clients.PublicPutApiClientRequest": {
+      "HelloAsso.Api.V5.Common.Models.Accounts.Clients.PublicPutApiClientRequest": {
         "type": "object",
         "properties": {
           "domain": {
@@ -3398,7 +2937,42 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.ApiNotifications.ApiNotificationType": {
+      "HelloAsso.Api.V5.Common.Models.Accounts.CompanyLegalStatusModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Company legal status id",
+            "format": "int32"
+          },
+          "label": {
+            "type": "string",
+            "description": "Company legal status label",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "user/payer company legal status"
+      },
+      "HelloAsso.Api.V5.Common.Models.Accounts.OrganismCategoryModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "label": {
+            "type": "string",
+            "nullable": true
+          },
+          "shortLabel": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiNotificationType": {
         "enum": [
           "Payment",
           "Order",
@@ -3407,7 +2981,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.ApiNotifications.ApiUrlNotificationModel": {
+      "HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel": {
         "type": "object",
         "properties": {
           "url": {
@@ -3416,7 +2990,7 @@
             "nullable": true
           },
           "apiNotificationType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiNotificationType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiNotificationType"
           },
           "signatureKey": {
             "type": "string",
@@ -3427,7 +3001,7 @@
         "additionalProperties": false,
         "description": "Organization notification URL Model class"
       },
-      "HelloAsso.Api.V5.Models.ApiNotifications.PostApiUrlNotificationBody": {
+      "HelloAsso.Api.V5.Common.Models.ApiNotifications.PostApiUrlNotificationBody": {
         "required": [
           "url"
         ],
@@ -3439,12 +3013,12 @@
             "description": "The Api notification Url"
           },
           "notificationType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiNotificationType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiNotificationType"
           }
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Carts.CheckoutIntentResponse": {
+      "HelloAsso.Api.V5.Common.Models.Carts.CheckoutIntentResponse": {
         "type": "object",
         "properties": {
           "metadata": {
@@ -3452,7 +3026,7 @@
             "nullable": true
           },
           "order": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderDetail"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderDetail"
           },
           "id": {
             "type": "integer",
@@ -3467,7 +3041,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Carts.CheckoutPayer": {
+      "HelloAsso.Api.V5.Common.Models.Carts.CheckoutPayer": {
         "type": "object",
         "properties": {
           "firstName": {
@@ -3525,7 +3099,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Carts.CheckoutTerm": {
+      "HelloAsso.Api.V5.Common.Models.Carts.CheckoutTerm": {
         "required": [
           "amount",
           "date"
@@ -3545,7 +3119,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Carts.InitCheckoutBody": {
+      "HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutBody": {
         "required": [
           "backUrl",
           "containsDonation",
@@ -3595,13 +3169,13 @@
           "terms": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.CheckoutTerm"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.CheckoutTerm"
             },
             "description": "The list of future terms (if applicable)",
             "nullable": true
           },
           "payer": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Carts.CheckoutPayer"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.CheckoutPayer"
           },
           "metadata": {
             "description": "Metadata (optional)\r\nJson object (max length : 20000)",
@@ -3610,7 +3184,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Carts.InitCheckoutResponse": {
+      "HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutResponse": {
         "type": "object",
         "properties": {
           "id": {
@@ -3626,7 +3200,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Common.ContactModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.ContactModel": {
         "type": "object",
         "properties": {
           "email": {
@@ -3643,7 +3217,7 @@
         "additionalProperties": false,
         "description": "Contact class"
       },
-      "HelloAsso.Api.V5.Models.Common.DocumentModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.DocumentModel": {
         "type": "object",
         "properties": {
           "id": {
@@ -3660,29 +3234,38 @@
             "type": "string",
             "description": "The public url of document",
             "nullable": true
+          },
+          "state": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ComplianceV2.Documents.DocumentState"
           }
         },
         "additionalProperties": false,
         "description": "DocumentModel class"
       },
-      "HelloAsso.Api.V5.Models.Common.MetaModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.MetaModel": {
         "type": "object",
         "properties": {
           "createdAt": {
             "type": "string",
-            "description": "CreatedAt",
             "format": "date-time"
           },
           "updatedAt": {
             "type": "string",
-            "description": "UpdateAt",
             "format": "date-time"
+          },
+          "authorEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "expiresAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
           }
         },
-        "additionalProperties": false,
-        "description": "MetaModel class"
+        "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Common.PaginationModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.PaginationModel": {
         "type": "object",
         "properties": {
           "pageSize": {
@@ -3714,7 +3297,7 @@
         "additionalProperties": false,
         "description": "Pagination model class"
       },
-      "HelloAsso.Api.V5.Models.Common.PlaceModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.PlaceModel": {
         "type": "object",
         "properties": {
           "address": {
@@ -3751,159 +3334,149 @@
         "additionalProperties": false,
         "description": "PlaceModel class"
       },
-      "ResultsWithPaginationModel_PartnerOrganizationModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<PartnerOrganizationModel>",
         "type": "object",
         "properties": {
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.PartnerOrganizationModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel"
             },
             "description": "Data property",
             "nullable": true
           },
           "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PaginationModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
           }
         },
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "ResultsWithPaginationModel_SynchronizableFormModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<SynchronizableFormModel>",
         "type": "object",
         "properties": {
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.SynchronizableFormModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel"
             },
             "description": "Data property",
             "nullable": true
           },
           "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PaginationModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
           }
         },
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "ResultsWithPaginationModel_SynchronizableOrganizationModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<SynchronizableOrganizationModel>",
         "type": "object",
         "properties": {
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.SynchronizableOrganizationModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel"
             },
             "description": "Data property",
             "nullable": true
           },
           "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PaginationModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
           }
         },
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "ResultsWithPaginationModel_FormLightModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<FormLightModel>",
         "type": "object",
         "properties": {
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormLightModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormLightModel"
             },
             "description": "Data property",
             "nullable": true
           },
           "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PaginationModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
           }
         },
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "ResultsWithPaginationModel_PublicPaymentModel": {
-        "title": "ResultsWithPaginationModel<PublicPaymentModel>",
-        "type": "object",
-        "properties": {
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Payment.PublicPaymentModel"
-            },
-            "description": "Data property",
-            "nullable": true
-          },
-          "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PaginationModel"
-          }
-        },
-        "additionalProperties": false,
-        "description": "ResultsWithPaginationModel class"
-      },
-      "ResultsWithPaginationModel_Item": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Item, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<Item>",
         "type": "object",
         "properties": {
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.Item"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Item"
             },
             "description": "Data property",
             "nullable": true
           },
           "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PaginationModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
           }
         },
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "ResultsWithPaginationModel_Order": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<Order>",
         "type": "object",
         "properties": {
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.Order"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Order"
             },
             "description": "Data property",
             "nullable": true
           },
           "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PaginationModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
           }
         },
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "ResultsWithPaginationModel_Payment": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<Payment>",
         "type": "object",
         "properties": {
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.Payment"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Payment"
             },
             "description": "Data property",
             "nullable": true
           },
           "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PaginationModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
           }
         },
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Models.Directory.DirectoryOrganizationPublicModel": {
+      "HelloAsso.Api.V5.Common.Models.ComplianceV2.Documents.DocumentState": {
+        "enum": [
+          "Saved",
+          "Pending",
+          "Rejected",
+          "Accepted"
+        ],
+        "type": "string"
+      },
+      "HelloAsso.Api.V5.Common.Models.Directory.DirectoryOrganizationPublicModel": {
         "type": "object",
         "properties": {
           "tags": {
@@ -3929,7 +3502,7 @@
           },
           "isCashInCompliant": {
             "type": "boolean",
-            "description": "If transaction can be init on the organization or not.",
+            "description": "If transaction can be init on the organization or not. Property returned only when asked by an organization admin.",
             "nullable": true
           },
           "banner": {
@@ -3946,7 +3519,7 @@
             "description": "The organism is eligible, has set up his options, and is authenticated."
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.OrganizationType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.OrganizationType"
           },
           "category": {
             "type": "string",
@@ -4018,7 +3591,7 @@
         "additionalProperties": false,
         "description": "DirectoryOrganizationPublicModel class"
       },
-      "HelloAsso.Api.V5.Models.Directory.ListFormsRequest": {
+      "HelloAsso.Api.V5.Common.Models.Directory.ListFormsRequest": {
         "type": "object",
         "properties": {
           "formName": {
@@ -4074,7 +3647,7 @@
           "formTypes": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
             },
             "description": "The form types : CrowdFunding, Membership, Event, Donation, PaymentForm ...",
             "nullable": true
@@ -4223,7 +3796,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Directory.ListOrganizationsRequest": {
+      "HelloAsso.Api.V5.Common.Models.Directory.ListOrganizationsRequest": {
         "type": "object",
         "properties": {
           "name": {
@@ -4316,11 +3889,11 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Directory.PartnerOrganizationModel": {
+      "HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel": {
         "type": "object",
         "properties": {
           "organization": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Directory.DirectoryOrganizationPublicModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.DirectoryOrganizationPublicModel"
           },
           "availableAccessToken": {
             "type": "boolean",
@@ -4330,33 +3903,33 @@
         "additionalProperties": false,
         "description": "PartnerOrganizationModel class"
       },
-      "HelloAsso.Api.V5.Models.Directory.SynchronizableFormModel": {
+      "HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel": {
         "type": "object",
         "properties": {
           "action": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.RecordActionType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.RecordActionType"
           },
           "record": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.FormBasicModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormBasicModel"
           }
         },
         "additionalProperties": false,
         "description": "SynchronizableFormModel class"
       },
-      "HelloAsso.Api.V5.Models.Directory.SynchronizableOrganizationModel": {
+      "HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel": {
         "type": "object",
         "properties": {
           "action": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.RecordActionType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.RecordActionType"
           },
           "record": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Organization.OrganizationBasicModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationBasicModel"
           }
         },
         "additionalProperties": false,
         "description": "SynchronizableOrganizationModel class"
       },
-      "HelloAsso.Api.V5.Models.Enums.FieldType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.FieldType": {
         "enum": [
           "Date",
           "TextInput",
@@ -4370,7 +3943,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.FormState": {
+      "HelloAsso.Api.V5.Common.Models.Enums.FormState": {
         "enum": [
           "Public",
           "Private",
@@ -4380,7 +3953,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.FormType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.FormType": {
         "enum": [
           "CrowdFunding",
           "Membership",
@@ -4392,7 +3965,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.ItemState": {
+      "HelloAsso.Api.V5.Common.Models.Enums.ItemState": {
         "enum": [
           "Waiting",
           "Processed",
@@ -4408,7 +3981,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.MembershipValidityType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.MembershipValidityType": {
         "enum": [
           "MovingYear",
           "Custom",
@@ -4417,7 +3990,7 @@
         "type": "string",
         "description": "Enum which represents the membership validity type"
       },
-      "HelloAsso.Api.V5.Models.Enums.OperationState": {
+      "HelloAsso.Api.V5.Common.Models.Enums.OperationState": {
         "enum": [
           "Unknown",
           "Init",
@@ -4431,7 +4004,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.OrganizationType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.OrganizationType": {
         "enum": [
           "Association1901Rig",
           "Association1901Rup",
@@ -4467,7 +4040,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.PaymentCashOutState": {
+      "HelloAsso.Api.V5.Common.Models.Enums.PaymentCashOutState": {
         "enum": [
           "MoneyIn",
           "CantTransferReceiverFull",
@@ -4482,7 +4055,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.PaymentFrequencyType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.PaymentFrequencyType": {
         "enum": [
           "Single",
           "Installment",
@@ -4490,7 +4063,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.PaymentMeans": {
+      "HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans": {
         "enum": [
           "None",
           "Card",
@@ -4502,7 +4075,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.PaymentProviderType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.PaymentProviderType": {
         "enum": [
           "Lemonway",
           "Stripe",
@@ -4512,7 +4085,7 @@
         "type": "string",
         "description": "The payment provider type."
       },
-      "HelloAsso.Api.V5.Models.Enums.PaymentState": {
+      "HelloAsso.Api.V5.Common.Models.Enums.PaymentState": {
         "enum": [
           "Pending",
           "Authorized",
@@ -4538,7 +4111,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.PaymentType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.PaymentType": {
         "enum": [
           "Offline",
           "Credit",
@@ -4546,7 +4119,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.PriceCategory": {
+      "HelloAsso.Api.V5.Common.Models.Enums.PriceCategory": {
         "enum": [
           "Fixed",
           "Pwyw",
@@ -4554,14 +4127,14 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.RecordActionType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.RecordActionType": {
         "enum": [
           "Insert",
           "Delete"
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.SortField": {
+      "HelloAsso.Api.V5.Common.Models.Enums.SortField": {
         "enum": [
           "Date",
           "UpdateDate",
@@ -4569,21 +4142,21 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.SortOrder": {
+      "HelloAsso.Api.V5.Common.Models.Enums.SortOrder": {
         "enum": [
           "Asc",
           "Desc"
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.TagType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.TagType": {
         "enum": [
           "Explore",
           "Internal"
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Enums.TierType": {
+      "HelloAsso.Api.V5.Common.Models.Enums.TierType": {
         "enum": [
           "Donation",
           "Payment",
@@ -4598,7 +4171,7 @@
         ],
         "type": "string"
       },
-      "HelloAsso.Api.V5.Models.Forms.CustomFieldPublicModel": {
+      "HelloAsso.Api.V5.Common.Models.Forms.CustomFieldPublicModel": {
         "type": "object",
         "properties": {
           "id": {
@@ -4622,7 +4195,7 @@
             "readOnly": true
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FieldType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FieldType"
           },
           "label": {
             "type": "string",
@@ -4634,13 +4207,13 @@
         "additionalProperties": false,
         "description": "A custom field can be assigned to a Tier or an ExtraOption\r\nIt is used to give extra information during the reservation of a tier"
       },
-      "HelloAsso.Api.V5.Models.Forms.ExtraOptionPublicModel": {
+      "HelloAsso.Api.V5.Common.Models.Forms.ExtraOptionPublicModel": {
         "type": "object",
         "properties": {
           "customFields": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.CustomFieldPublicModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.CustomFieldPublicModel"
             },
             "description": "List of custom fields to be filled by the user",
             "nullable": true
@@ -4679,7 +4252,7 @@
         "additionalProperties": false,
         "description": "ExtraOptionFullModel"
       },
-      "HelloAsso.Api.V5.Models.Forms.FormBasicModel": {
+      "HelloAsso.Api.V5.Common.Models.Forms.FormBasicModel": {
         "type": "object",
         "properties": {
           "formSlug": {
@@ -4688,7 +4261,7 @@
             "nullable": true
           },
           "formType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
           },
           "url": {
             "type": "string",
@@ -4704,11 +4277,11 @@
         "additionalProperties": false,
         "description": "A basic form model"
       },
-      "HelloAsso.Api.V5.Models.Forms.FormLightModel": {
+      "HelloAsso.Api.V5.Common.Models.Forms.FormLightModel": {
         "type": "object",
         "properties": {
           "banner": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.DocumentModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.DocumentModel"
           },
           "currency": {
             "type": "string",
@@ -4733,13 +4306,13 @@
             "nullable": true
           },
           "logo": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.DocumentModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.DocumentModel"
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormState"
           },
           "title": {
             "type": "string",
@@ -4782,7 +4355,7 @@
             "nullable": true
           },
           "formType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
           },
           "url": {
             "type": "string",
@@ -4798,7 +4371,7 @@
         "additionalProperties": false,
         "description": "FormLightModel class"
       },
-      "HelloAsso.Api.V5.Models.Forms.FormPublicModel": {
+      "HelloAsso.Api.V5.Common.Models.Forms.FormPublicModel": {
         "type": "object",
         "properties": {
           "organizationLogo": {
@@ -4814,7 +4387,7 @@
           "tiers": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.TierPublicModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.TierPublicModel"
             },
             "description": "Tiers",
             "nullable": true
@@ -4830,7 +4403,7 @@
             "format": "int32"
           },
           "place": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PlaceModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PlaceModel"
           },
           "saleEndDate": {
             "type": "string",
@@ -4845,7 +4418,7 @@
             "nullable": true
           },
           "validityType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.MembershipValidityType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.MembershipValidityType"
           },
           "personalizedMessage": {
             "type": "string",
@@ -4853,7 +4426,7 @@
             "nullable": true
           },
           "banner": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.DocumentModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.DocumentModel"
           },
           "currency": {
             "type": "string",
@@ -4878,13 +4451,13 @@
             "nullable": true
           },
           "logo": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.DocumentModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.DocumentModel"
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormState"
           },
           "title": {
             "type": "string",
@@ -4927,7 +4500,7 @@
             "nullable": true
           },
           "formType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
           },
           "url": {
             "type": "string",
@@ -4943,7 +4516,7 @@
         "additionalProperties": false,
         "description": "FormPublicModel class"
       },
-      "HelloAsso.Api.V5.Models.Forms.FormQuickCreateModel": {
+      "HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateModel": {
         "type": "object",
         "properties": {
           "formSlug": {
@@ -4961,7 +4534,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Forms.FormQuickCreateRequest": {
+      "HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateRequest": {
         "required": [
           "title"
         ],
@@ -4970,7 +4543,7 @@
           "tierList": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.TierLightModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.TierLightModel"
             },
             "nullable": true
           },
@@ -5018,7 +4591,7 @@
             "nullable": true
           },
           "place": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.PlaceModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PlaceModel"
           },
           "saleEndDate": {
             "type": "string",
@@ -5033,7 +4606,7 @@
             "nullable": true
           },
           "validityType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.MembershipValidityType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.MembershipValidityType"
           },
           "acceptOpenDonation": {
             "type": "boolean",
@@ -5062,11 +4635,11 @@
             "nullable": true
           },
           "contact": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.ContactModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ContactModel"
           },
           "displayContributorName": {
             "type": "boolean",
-            "description": "Display contributor name for fundraiser"
+            "description": "Display contributor name for fundraiser and donation forms."
           },
           "displayParticipantsCount": {
             "type": "boolean",
@@ -5133,6 +4706,14 @@
             "description": "Description of the project owners (rich Html)",
             "nullable": true
           },
+          "suggestMonthlyDonation": {
+            "type": "boolean",
+            "description": "Suggest monthly donation for donation forms."
+          },
+          "displayMonthlyDonationsFirst": {
+            "type": "boolean",
+            "description": "The monthly donation option should be displayed or selected by default for donation forms."
+          },
           "projectTargetCountry": {
             "maxLength": 3,
             "minLength": 3,
@@ -5154,6 +4735,10 @@
             "format": "int32",
             "nullable": true
           },
+          "remindAbandonedCart": {
+            "type": "boolean",
+            "description": "Whether a reminder email should be sent for abandoned carts."
+          },
           "maxEntries": {
             "type": "integer",
             "description": "Indicates the maximum available entries for the whole form. Null means unlimited entries.",
@@ -5163,7 +4748,17 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Forms.TermModel": {
+      "HelloAsso.Api.V5.Common.Models.Forms.FormStateRequest": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormState"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Update the from state"
+      },
+      "HelloAsso.Api.V5.Common.Models.Forms.TermModel": {
         "type": "object",
         "properties": {
           "date": {
@@ -5181,7 +4776,7 @@
         "additionalProperties": false,
         "description": "TermsModel class"
       },
-      "HelloAsso.Api.V5.Models.Forms.TierLightModel": {
+      "HelloAsso.Api.V5.Common.Models.Forms.TierLightModel": {
         "type": "object",
         "properties": {
           "label": {
@@ -5195,13 +4790,13 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Forms.TierPublicModel": {
+      "HelloAsso.Api.V5.Common.Models.Forms.TierPublicModel": {
         "type": "object",
         "properties": {
           "customFields": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.CustomFieldPublicModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.CustomFieldPublicModel"
             },
             "description": "List of custom fields to be filled by the user",
             "nullable": true
@@ -5209,7 +4804,7 @@
           "extraOptions": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.ExtraOptionPublicModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.ExtraOptionPublicModel"
             },
             "description": "List of available extra options to buy along the tier",
             "nullable": true
@@ -5230,7 +4825,7 @@
             "nullable": true
           },
           "tierType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.TierType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TierType"
           },
           "price": {
             "type": "integer",
@@ -5250,7 +4845,7 @@
             "nullable": true
           },
           "paymentFrequency": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentFrequencyType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentFrequencyType"
           },
           "maxPerUser": {
             "type": "integer",
@@ -5259,7 +4854,7 @@
             "nullable": true
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           },
           "saleStartDate": {
             "type": "string",
@@ -5280,24 +4875,28 @@
           "terms": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Forms.TermModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.TermModel"
             },
             "description": "Terms of tier",
             "nullable": true
           },
           "picture": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.DocumentModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.DocumentModel"
           },
           "isExcludedFromFormPaymentTerms": {
             "type": "boolean",
             "description": "True means this tier must be paid in the initial payment, false means it can be paid in payment with installments\r\nNull when the form payment terms are disabled or not compatible with the related form",
             "nullable": true
+          },
+          "isFavorite": {
+            "type": "boolean",
+            "description": "Indicates whether this tier is marked as a favorite.\r\nUsed only in Donation form type."
           }
         },
         "additionalProperties": false,
         "description": "TierPublicModel class"
       },
-      "HelloAsso.Api.V5.Models.Organization.OrganizationBasicModel": {
+      "HelloAsso.Api.V5.Common.Models.Organization.OrganizationBasicModel": {
         "type": "object",
         "properties": {
           "url": {
@@ -5314,7 +4913,7 @@
         "additionalProperties": false,
         "description": "A basic organization model"
       },
-      "HelloAsso.Api.V5.Models.Organization.OrganizationLightModel": {
+      "HelloAsso.Api.V5.Common.Models.Organization.OrganizationLightModel": {
         "type": "object",
         "properties": {
           "logo": {
@@ -5369,7 +4968,7 @@
         "additionalProperties": false,
         "description": "OrganizationLightModel class"
       },
-      "HelloAsso.Api.V5.Models.Organization.OrganizationModel": {
+      "HelloAsso.Api.V5.Common.Models.Organization.OrganizationModel": {
         "type": "object",
         "properties": {
           "isAuthenticated": {
@@ -5379,7 +4978,7 @@
           },
           "isCashInCompliant": {
             "type": "boolean",
-            "description": "If transaction can be init on the organization or not.",
+            "description": "If transaction can be init on the organization or not. Property returned only when asked by an organization admin.",
             "nullable": true
           },
           "banner": {
@@ -5396,7 +4995,7 @@
             "description": "The organism is eligible, has set up his options, and is authenticated."
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.OrganizationType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.OrganizationType"
           },
           "category": {
             "type": "string",
@@ -5468,89 +5067,7 @@
         "additionalProperties": false,
         "description": "OrganizationsModel class"
       },
-      "HelloAsso.Api.V5.Models.OrganizationLegalInformations.OrganizationLegalStructuresModel": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "legalStructure": {
-            "type": "string",
-            "nullable": true
-          },
-          "agreement": {
-            "type": "string",
-            "nullable": true
-          },
-          "isFiscalReceiptEligible": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationFiscalReceiptTransmitterBody": {
-        "type": "object",
-        "properties": {
-          "isHelloAssoFiscalReceiptTransmitter": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Api.V5.Models.OrganizationLegalInformations.UpdateOrganizationLegalInformationConfigurationBody": {
-        "required": [
-          "allowIfiTaxReductions",
-          "isColuche",
-          "legalStructureId"
-        ],
-        "type": "object",
-        "properties": {
-          "legalStructureId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "isColuche": {
-            "type": "boolean"
-          },
-          "allowIfiTaxReductions": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Api.V5.Models.PartnerStatisticsModel": {
-        "type": "object",
-        "properties": {
-          "linkedOrganizationsCount": {
-            "type": "integer",
-            "description": "Number of organizations linked to this partner",
-            "format": "int32"
-          },
-          "linkedOrganizationsCollectedAmount": {
-            "type": "integer",
-            "description": "Collected amount by linked organizations",
-            "format": "int64"
-          },
-          "checkoutCollectedAmount": {
-            "type": "integer",
-            "description": "Collected amount by All partner checkouts",
-            "format": "int64"
-          },
-          "organizationsUsingCheckout": {
-            "type": "integer",
-            "description": "Number of organizations using the checkout with this partner",
-            "format": "int32"
-          },
-          "availableOrganizationsAccessTokenCount": {
-            "type": "integer",
-            "description": "Number of organizations access token obtains by authorize flow",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Api.V5.Models.Partners.PartnerPublicModel": {
+      "HelloAsso.Api.V5.Common.Models.Partners.PartnerPublicModel": {
         "type": "object",
         "properties": {
           "name": {
@@ -5584,12 +5101,12 @@
             "nullable": true
           },
           "apiClient": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Accounts.Clients.ApiClientModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.Clients.ApiClientModel"
           },
           "urlNotificationList": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.ApiNotifications.ApiUrlNotificationModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
             },
             "description": "Url Notification of the partner",
             "nullable": true
@@ -5600,125 +5117,110 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Payment.PublicPaymentModel": {
+      "HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportPaymentOperation": {
+        "enum": [
+          "MonthlyDonation",
+          "OneTimeDonation",
+          "OneTimePayment",
+          "MultipleInstalmentPayment",
+          "AdditionalDonation",
+          "OrganizationTip",
+          "Debit",
+          "Credit",
+          "ContestationCancelled",
+          "RefundCancelled"
+        ],
+        "type": "string"
+      },
+      "HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportPaymentStatus": {
+        "enum": [
+          "Paid",
+          "Refunded",
+          "PartiallyRefunded",
+          "Contested"
+        ],
+        "type": "string"
+      },
+      "HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportRowModel": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "description": "The payment id",
-            "format": "int32"
+          "campaignType": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
           },
-          "organizationId": {
-            "type": "integer",
-            "description": "The Organization id, which the payment was made to",
-            "format": "int32"
-          },
-          "formId": {
-            "type": "integer",
-            "description": "The form id where the payment was made. Used with FormType",
-            "format": "int32",
+          "campaignName": {
+            "type": "string",
             "nullable": true
           },
-          "formType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+          "operationType": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportPaymentOperation"
           },
-          "amount": {
-            "type": "integer",
-            "description": "Amount",
-            "format": "int32"
-          },
-          "meansPayment": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentMeans"
-          },
-          "cashOutState": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentCashOutState"
-          },
-          "date": {
-            "type": "string",
-            "description": "The payment Date.",
-            "format": "date-time"
-          },
-          "authorizationDate": {
-            "type": "string",
-            "description": "If the payment is authorized, this is the date of authorization",
-            "format": "date-time",
+          "credit": {
+            "type": "number",
+            "format": "double",
             "nullable": true
           },
-          "orderDate": {
-            "type": "string",
-            "description": "Date at which the Order was placed.\r\nImportant for monthly payments or scheduled payments.",
-            "format": "date-time"
+          "debit": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
           },
           "orderId": {
             "type": "integer",
-            "description": "The id of the order",
+            "format": "int32",
+            "nullable": true
+          },
+          "paymentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "paymentDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "paymentMethod": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans"
+          },
+          "paymentStatus": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportPaymentStatus"
+          },
+          "cashOutDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "cashOutId": {
+            "type": "integer",
             "format": "int32"
           },
-          "fiscalReceiptGenerated": {
-            "type": "boolean",
-            "description": "Whether a Fiscal receipt document has been generated for this payment or not."
-          },
-          "payerFirstName": {
+          "designation": {
             "type": "string",
-            "description": "The inputted payer first name, might differs from User firstname, from linked user Id",
+            "nullable": true
+          },
+          "payerCompany": {
+            "type": "string",
             "nullable": true
           },
           "payerLastName": {
             "type": "string",
-            "description": "The inputted payer last name,  might differs from User lastname, from linked user Id",
             "nullable": true
           },
-          "status": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentState"
-          },
-          "userId": {
-            "type": "integer",
-            "description": "The user id who initiated the payment",
-            "format": "int32",
-            "nullable": true
-          },
-          "userFirstName": {
+          "payerFirstName": {
             "type": "string",
-            "description": "The name of the user who initiated the payment. May differ from PayerFirstName",
             "nullable": true
           },
-          "userLastName": {
+          "payerEmail": {
             "type": "string",
-            "description": "The name of the user who initiated the payment. May differ from PayerLastName",
             "nullable": true
           },
-          "userEmail": {
+          "payerSiren": {
             "type": "string",
-            "description": "The email of the user account who initiated the payment.",
-            "nullable": true
-          },
-          "providerTitle": {
-            "type": "string",
-            "description": "name of the provider",
-            "nullable": true
-          },
-          "installmentNumber": {
-            "type": "integer",
-            "description": "Indicates the payment number (useful in the case of an order comprising payments with installments)\r\nStarting with 1.",
-            "format": "int32",
-            "nullable": true
-          },
-          "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
-          },
-          "refundOperations": {
-            "title": "List<RefundOperationLightModel>",
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.RefundOperationLightModel"
-            },
-            "description": "The refund operations for the specific payment.",
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Payment.RefundOperationModel": {
+      "HelloAsso.Api.V5.Common.Models.Payment.RefundOperationModel": {
         "type": "object",
         "properties": {
           "id": {
@@ -5741,7 +5243,7 @@
             "format": "date-time"
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.OperationState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.OperationState"
           },
           "sendRefundMail": {
             "type": "boolean",
@@ -5756,19 +5258,19 @@
         "additionalProperties": false,
         "description": "RefundOperationModel class"
       },
-      "HelloAsso.Api.V5.Models.Statistics.Item": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.Item": {
         "type": "object",
         "properties": {
           "order": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderLight"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderLight"
           },
           "payer": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.Payer"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Payer"
           },
           "payments": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemPayment"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemPayment"
             },
             "description": "Payments linked to this item",
             "nullable": true
@@ -5778,10 +5280,10 @@
             "nullable": true
           },
           "user": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.User"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.User"
           },
           "priceCategory": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PriceCategory"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PriceCategory"
           },
           "minAmount": {
             "type": "integer",
@@ -5790,12 +5292,12 @@
             "nullable": true
           },
           "discount": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemDiscount"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemDiscount"
           },
           "customFields": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemCustomField"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemCustomField"
             },
             "description": "Custom fields related to this item",
             "nullable": true
@@ -5803,7 +5305,7 @@
           "options": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemOption"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemOption"
             },
             "description": "Extra options taken with this item",
             "nullable": true
@@ -5854,7 +5356,7 @@
             "format": "int32"
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.TierType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TierType"
           },
           "initialAmount": {
             "type": "integer",
@@ -5863,13 +5365,13 @@
             "nullable": true
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.ItemState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.ItemState"
           }
         },
         "additionalProperties": false,
         "description": "An item of an order"
       },
-      "HelloAsso.Api.V5.Models.Statistics.ItemCustomField": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.ItemCustomField": {
         "type": "object",
         "properties": {
           "id": {
@@ -5881,7 +5383,7 @@
             "nullable": true
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FieldType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FieldType"
           },
           "answer": {
             "type": "string",
@@ -5892,19 +5394,19 @@
         "additionalProperties": false,
         "description": "Custom field associated with the item or option"
       },
-      "HelloAsso.Api.V5.Models.Statistics.ItemDetail": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.ItemDetail": {
         "type": "object",
         "properties": {
           "order": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderLight"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderLight"
           },
           "payer": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.Payer"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Payer"
           },
           "payments": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemPayment"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemPayment"
             },
             "description": "Payments linked to this item",
             "nullable": true
@@ -5914,10 +5416,10 @@
             "nullable": true
           },
           "user": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.User"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.User"
           },
           "priceCategory": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PriceCategory"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PriceCategory"
           },
           "minAmount": {
             "type": "integer",
@@ -5926,12 +5428,12 @@
             "nullable": true
           },
           "discount": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemDiscount"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemDiscount"
           },
           "customFields": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemCustomField"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemCustomField"
             },
             "description": "Custom fields related to this item",
             "nullable": true
@@ -5939,7 +5441,7 @@
           "options": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemOption"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemOption"
             },
             "description": "Extra options taken with this item",
             "nullable": true
@@ -5990,7 +5492,7 @@
             "format": "int32"
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.TierType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TierType"
           },
           "initialAmount": {
             "type": "integer",
@@ -5999,12 +5501,12 @@
             "nullable": true
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.ItemState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.ItemState"
           }
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.ItemDiscount": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.ItemDiscount": {
         "type": "object",
         "properties": {
           "code": {
@@ -6020,7 +5522,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.ItemOption": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.ItemOption": {
         "type": "object",
         "properties": {
           "name": {
@@ -6034,7 +5536,7 @@
             "format": "int32"
           },
           "priceCategory": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PriceCategory"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PriceCategory"
           },
           "isRequired": {
             "type": "boolean",
@@ -6043,7 +5545,7 @@
           "customFields": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemCustomField"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemCustomField"
             },
             "description": "Custom fields related to this option",
             "nullable": true
@@ -6056,11 +5558,11 @@
         "additionalProperties": false,
         "description": "ItemOption class"
       },
-      "HelloAsso.Api.V5.Models.Statistics.ItemPayment": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.ItemPayment": {
         "type": "object",
         "properties": {
           "cashOutState": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentCashOutState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentCashOutState"
           },
           "shareAmount": {
             "type": "integer",
@@ -6089,7 +5591,7 @@
             "format": "date-time"
           },
           "paymentMeans": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentMeans"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans"
           },
           "installmentNumber": {
             "type": "integer",
@@ -6098,22 +5600,22 @@
             "nullable": true
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentState"
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentType"
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           },
           "paymentOffLineMean": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentMeans"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans"
           },
           "refundOperations": {
             "title": "List<RefundOperationLightModel>",
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.RefundOperationLightModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.RefundOperationLightModel"
             },
             "description": "The refund operations information for the specific payment.",
             "nullable": true
@@ -6122,16 +5624,16 @@
         "additionalProperties": false,
         "description": "Payment linked to the item"
       },
-      "HelloAsso.Api.V5.Models.Statistics.Order": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.Order": {
         "type": "object",
         "properties": {
           "payer": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.Payer"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Payer"
           },
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderItem"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderItem"
             },
             "description": "All items of the order",
             "nullable": true
@@ -6139,13 +5641,13 @@
           "payments": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderPayment"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderPayment"
             },
             "description": "All payments of the order",
             "nullable": true
           },
           "amount": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderAmountModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderAmountModel"
           },
           "id": {
             "type": "integer",
@@ -6163,7 +5665,7 @@
             "nullable": true
           },
           "formType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
           },
           "organizationName": {
             "type": "string",
@@ -6176,7 +5678,7 @@
             "nullable": true
           },
           "organizationType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.OrganizationType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.OrganizationType"
           },
           "organizationIsUnderColucheLaw": {
             "type": "boolean",
@@ -6189,12 +5691,12 @@
             "nullable": true
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           }
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.OrderAmountModel": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.OrderAmountModel": {
         "type": "object",
         "properties": {
           "total": {
@@ -6215,16 +5717,16 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.OrderDetail": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.OrderDetail": {
         "type": "object",
         "properties": {
           "payer": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.Payer"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Payer"
           },
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderItem"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderItem"
             },
             "description": "All items of the order",
             "nullable": true
@@ -6232,13 +5734,13 @@
           "payments": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderPayment"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderPayment"
             },
             "description": "All payments of the order",
             "nullable": true
           },
           "amount": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderAmountModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderAmountModel"
           },
           "id": {
             "type": "integer",
@@ -6256,7 +5758,7 @@
             "nullable": true
           },
           "formType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
           },
           "organizationName": {
             "type": "string",
@@ -6269,7 +5771,7 @@
             "nullable": true
           },
           "organizationType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.OrganizationType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.OrganizationType"
           },
           "organizationIsUnderColucheLaw": {
             "type": "boolean",
@@ -6282,18 +5784,18 @@
             "nullable": true
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           }
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.OrderItem": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.OrderItem": {
         "type": "object",
         "properties": {
           "payments": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.SharePayment"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.SharePayment"
             },
             "description": "Payments linked to this item and each share between the item and the payment",
             "nullable": true
@@ -6303,10 +5805,10 @@
             "nullable": true
           },
           "user": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.User"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.User"
           },
           "priceCategory": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PriceCategory"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PriceCategory"
           },
           "minAmount": {
             "type": "integer",
@@ -6315,12 +5817,12 @@
             "nullable": true
           },
           "discount": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemDiscount"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemDiscount"
           },
           "customFields": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemCustomField"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemCustomField"
             },
             "description": "Custom fields related to this item",
             "nullable": true
@@ -6328,7 +5830,7 @@
           "options": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ItemOption"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemOption"
             },
             "description": "Extra options taken with this item",
             "nullable": true
@@ -6379,7 +5881,7 @@
             "format": "int32"
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.TierType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TierType"
           },
           "initialAmount": {
             "type": "integer",
@@ -6388,13 +5890,13 @@
             "nullable": true
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.ItemState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.ItemState"
           }
         },
         "additionalProperties": false,
         "description": "Item on the order"
       },
-      "HelloAsso.Api.V5.Models.Statistics.OrderLight": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.OrderLight": {
         "type": "object",
         "properties": {
           "id": {
@@ -6413,7 +5915,7 @@
             "nullable": true
           },
           "formType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.FormType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
           },
           "organizationName": {
             "type": "string",
@@ -6426,7 +5928,7 @@
             "nullable": true
           },
           "organizationType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.OrganizationType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.OrganizationType"
           },
           "organizationIsUnderColucheLaw": {
             "type": "boolean",
@@ -6439,18 +5941,18 @@
             "nullable": true
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           }
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.OrderPayment": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.OrderPayment": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.ShareItem"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ShareItem"
             },
             "description": "Items linked to this payment and each share between the item and the payment",
             "nullable": true
@@ -6461,8 +5963,14 @@
             "format": "date-time",
             "nullable": true
           },
+          "idCashOut": {
+            "type": "integer",
+            "description": "The id of the cash out",
+            "format": "int32",
+            "nullable": true
+          },
           "cashOutState": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentCashOutState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentCashOutState"
           },
           "paymentReceiptUrl": {
             "type": "string",
@@ -6496,7 +6004,7 @@
             "format": "date-time"
           },
           "paymentMeans": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentMeans"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans"
           },
           "installmentNumber": {
             "type": "integer",
@@ -6505,22 +6013,22 @@
             "nullable": true
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentState"
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentType"
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           },
           "paymentOffLineMean": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentMeans"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans"
           },
           "refundOperations": {
             "title": "List<RefundOperationLightModel>",
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.RefundOperationLightModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.RefundOperationLightModel"
             },
             "description": "The refund operations information for the specific payment.",
             "nullable": true
@@ -6529,7 +6037,7 @@
         "additionalProperties": false,
         "description": "Payment on the order"
       },
-      "HelloAsso.Api.V5.Models.Statistics.Payer": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.Payer": {
         "type": "object",
         "properties": {
           "email": {
@@ -6578,19 +6086,19 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.Payment": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.Payment": {
         "type": "object",
         "properties": {
           "order": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderLight"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderLight"
           },
           "payer": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.Payer"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Payer"
           },
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.PaymentItem"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentItem"
             },
             "description": "Items linked to this payment",
             "nullable": true
@@ -6601,8 +6109,14 @@
             "format": "date-time",
             "nullable": true
           },
+          "idCashOut": {
+            "type": "integer",
+            "description": "The id of the cash out",
+            "format": "int32",
+            "nullable": true
+          },
           "cashOutState": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentCashOutState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentCashOutState"
           },
           "paymentReceiptUrl": {
             "type": "string",
@@ -6636,7 +6150,7 @@
             "format": "date-time"
           },
           "paymentMeans": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentMeans"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans"
           },
           "installmentNumber": {
             "type": "integer",
@@ -6645,22 +6159,22 @@
             "nullable": true
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentState"
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentType"
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           },
           "paymentOffLineMean": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentMeans"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans"
           },
           "refundOperations": {
             "title": "List<RefundOperationLightModel>",
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.RefundOperationLightModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.RefundOperationLightModel"
             },
             "description": "The refund operations information for the specific payment.",
             "nullable": true
@@ -6668,19 +6182,19 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.PaymentDetail": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail": {
         "type": "object",
         "properties": {
           "order": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.OrderLight"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderLight"
           },
           "payer": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.Payer"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Payer"
           },
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.PaymentItem"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentItem"
             },
             "description": "Items linked to this payment",
             "nullable": true
@@ -6691,8 +6205,14 @@
             "format": "date-time",
             "nullable": true
           },
+          "idCashOut": {
+            "type": "integer",
+            "description": "The id of the cash out",
+            "format": "int32",
+            "nullable": true
+          },
           "cashOutState": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentCashOutState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentCashOutState"
           },
           "paymentReceiptUrl": {
             "type": "string",
@@ -6726,7 +6246,7 @@
             "format": "date-time"
           },
           "paymentMeans": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentMeans"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans"
           },
           "installmentNumber": {
             "type": "integer",
@@ -6735,22 +6255,22 @@
             "nullable": true
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentState"
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentType"
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           },
           "paymentOffLineMean": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.PaymentMeans"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PaymentMeans"
           },
           "refundOperations": {
             "title": "List<RefundOperationLightModel>",
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Statistics.RefundOperationLightModel"
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.RefundOperationLightModel"
             },
             "description": "The refund operations information for the specific payment.",
             "nullable": true
@@ -6758,7 +6278,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.PaymentItem": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.PaymentItem": {
         "type": "object",
         "properties": {
           "shareAmount": {
@@ -6788,7 +6308,7 @@
             "format": "int32"
           },
           "type": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.TierType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TierType"
           },
           "initialAmount": {
             "type": "integer",
@@ -6797,7 +6317,7 @@
             "nullable": true
           },
           "state": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.ItemState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.ItemState"
           },
           "name": {
             "type": "string",
@@ -6808,7 +6328,7 @@
         "additionalProperties": false,
         "description": "Item linked to a payment"
       },
-      "HelloAsso.Api.V5.Models.Statistics.RefundOperationLightModel": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.RefundOperationLightModel": {
         "type": "object",
         "properties": {
           "id": {
@@ -6827,16 +6347,16 @@
             "format": "int32"
           },
           "status": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.OperationState"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.OperationState"
           },
           "meta": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Common.MetaModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.MetaModel"
           }
         },
         "additionalProperties": false,
         "description": "The refund operation with the Id, amount, amount tip and the status."
       },
-      "HelloAsso.Api.V5.Models.Statistics.ShareItem": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.ShareItem": {
         "type": "object",
         "properties": {
           "id": {
@@ -6863,7 +6383,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.SharePayment": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.SharePayment": {
         "type": "object",
         "properties": {
           "id": {
@@ -6879,7 +6399,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Statistics.User": {
+      "HelloAsso.Api.V5.Common.Models.Statistics.User": {
         "type": "object",
         "properties": {
           "firstName": {
@@ -6893,7 +6413,7 @@
         },
         "additionalProperties": false
       },
-      "HelloAsso.Api.V5.Models.Tags.InternalTagModel": {
+      "HelloAsso.Api.V5.Common.Models.Tags.InternalTagModel": {
         "type": "object",
         "properties": {
           "id": {
@@ -6919,10 +6439,10 @@
             "nullable": true
           },
           "tagType": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Enums.TagType"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TagType"
           },
           "tagParent": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Models.Tags.InternalTagModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.InternalTagModel"
           },
           "amountCollected": {
             "type": "integer",
@@ -6934,7 +6454,7 @@
         "additionalProperties": false,
         "description": "InternalTagModel class"
       },
-      "HelloAsso.Api.V5.Models.Tags.PublicTagModel": {
+      "HelloAsso.Api.V5.Common.Models.Tags.PublicTagModel": {
         "type": "object",
         "properties": {
           "name": {
@@ -6951,95 +6471,33 @@
         "additionalProperties": false,
         "description": "PublicNameTagModel class"
       },
-      "HelloAsso.Core.Accounts.TaxReceipts.OrganizationFiscalReceiptOptionsConfiguration": {
+      "HelloAsso.Api.V5.Models.PartnerStatisticsModel": {
         "type": "object",
         "properties": {
-          "purpose": {
-            "type": "string",
-            "nullable": true
-          },
-          "cerfaTypeId": {
+          "linkedOrganizationsCount": {
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "description": "Number of organizations linked to this partner",
+            "format": "int32"
           },
-          "joCategoryId": {
+          "linkedOrganizationsCollectedAmount": {
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "description": "Collected amount by linked organizations",
+            "format": "int64"
           },
-          "formatOptionModel": {
-            "$ref": "#/components/schemas/HelloAsso.Models.Payments.CashIn.FiscalReceipt.FiscalReceiptFormatOption"
-          },
-          "signatoryModel": {
-            "$ref": "#/components/schemas/HelloAsso.Models.Accounts.OrganizationLegalInformations.FiscalReceiptSignatoryModel"
-          },
-          "addressModel": {
-            "$ref": "#/components/schemas/HaTrust.Contract.LegalInformation.Address.AddressDto"
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Models.Accounts.OrganizationLegalInformations.FiscalReceiptSignatoryModel": {
-        "type": "object",
-        "properties": {
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "function": {
-            "type": "string",
-            "nullable": true
-          },
-          "fileUrl": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Models.Accounts.OrganizationLegalInformations.OrganizationLegalInformationConfiguration": {
-        "type": "object",
-        "properties": {
-          "legalStructureId": {
+          "checkoutCollectedAmount": {
             "type": "integer",
-            "format": "int32",
-            "readOnly": true
+            "description": "Collected amount by All partner checkouts",
+            "format": "int64"
           },
-          "isHelloAssoFiscalReceiptTransmitter": {
-            "type": "boolean",
-            "nullable": true,
-            "readOnly": true
+          "organizationsUsingCheckout": {
+            "type": "integer",
+            "description": "Number of organizations using the checkout with this partner",
+            "format": "int32"
           },
-          "isColucheLawEnabled": {
-            "type": "boolean"
-          },
-          "isIfiEnabled": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "HelloAsso.Models.Accounts.OrganizationLegalInformations.TaxInformationText": {
-        "type": "object",
-        "properties": {
-          "isColucheLawEnabled": {
-            "type": "boolean"
-          },
-          "isIfiEnabled": {
-            "type": "boolean"
-          },
-          "individualText": {
-            "type": "string",
-            "nullable": true
-          },
-          "companyText": {
-            "type": "string",
-            "nullable": true
+          "availableOrganizationsAccessTokenCount": {
+            "type": "integer",
+            "description": "Number of organizations access token obtains by authorize flow",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -7050,28 +6508,6 @@
           "FormAdmin"
         ],
         "type": "string"
-      },
-      "HelloAsso.Models.Payments.CashIn.FiscalReceipt.FiscalReceiptFormatOption": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "nullable": true
-          },
-          "order": {
-            "type": "string",
-            "nullable": true
-          },
-          "root": {
-            "type": "string",
-            "nullable": true
-          },
-          "separator": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
       },
       "HelloAsso.Models.Shared.GeoLocation": {
         "type": "object",

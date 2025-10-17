@@ -214,17 +214,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -301,17 +301,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -705,17 +705,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -1332,17 +1332,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -1477,17 +1477,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -2010,17 +2010,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -2235,17 +2235,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -3334,7 +3334,7 @@
         "additionalProperties": false,
         "description": "PlaceModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<PartnerOrganizationModel>",
         "type": "object",
         "properties": {
@@ -3353,7 +3353,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<SynchronizableFormModel>",
         "type": "object",
         "properties": {
@@ -3372,7 +3372,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<SynchronizableOrganizationModel>",
         "type": "object",
         "properties": {
@@ -3391,7 +3391,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<FormLightModel>",
         "type": "object",
         "properties": {
@@ -3410,7 +3410,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Item, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_Item, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<Item>",
         "type": "object",
         "properties": {
@@ -3429,7 +3429,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<Order>",
         "type": "object",
         "properties": {
@@ -3448,7 +3448,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "title": "ResultsWithPaginationModel<Payment>",
         "type": "object",
         "properties": {

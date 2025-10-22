@@ -214,17 +214,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel"
                 }
               }
             }
@@ -301,17 +301,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel"
                 }
               }
             }
@@ -705,17 +705,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel"
                 }
               }
             }
@@ -1332,17 +1332,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
                 }
               }
             }
@@ -1477,17 +1477,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
                 }
               }
             }
@@ -1546,10 +1546,10 @@
     "/organizations/{organizationSlug}/cash-out/{cashOutId}/export": {
       "get": {
         "tags": [
-          "Organization cash-out management"
+          "Versements"
         ],
-        "summary": "Download the cash-out details as a CSV, Excel or Json.",
-        "description": "<br/><br/><b>Connected client requirement :</b><br/>Must be authenticated as a USER.<br/><br/><b>Your token must have one of these roles : </b><br/>OrganizationAdmin<br/><br/>If you are an <b>association</b>, you can obtain these roles with your client.<br/>If you are a <b>partner</b>, you can obtain these roles by the authorize flow.<br/><br/><b>Your clientId must be allowed all of those privileges : </b> <br/> OrganizationAdministration<br/><br/>",
+        "summary": "Détails d'un versement",
+        "description": "<br/><br/><b>Votre token doit avoir l''un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d''autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> AccessTransactions<br/><br/>",
         "parameters": [
           {
             "name": "organizationSlug",
@@ -1575,15 +1575,6 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "title": "List<CashoutExportRowModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportRowModel"
-                  }
-                }
-              },
               "application/json": {
                 "schema": {
                   "title": "List<CashoutExportRowModel>",
@@ -1593,7 +1584,16 @@
                   }
                 }
               },
-              "text/json": {
+              "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
+                "schema": {
+                  "title": "List<CashoutExportRowModel>",
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportRowModel"
+                  }
+                }
+              },
+              "text/csv": {
                 "schema": {
                   "title": "List<CashoutExportRowModel>",
                   "type": "array",
@@ -1610,7 +1610,12 @@
           "403": {
             "description": "The JWT token hasn't the privileges or Roles for this action"
           }
-        }
+        },
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
       }
     },
     "/organizations/{organizationSlug}": {
@@ -2010,17 +2015,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel"
                 }
               }
             }
@@ -2235,17 +2240,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
                 }
               }
             }
@@ -2770,128 +2775,6 @@
           }
         ]
       }
-    },
-    "/organizations/legal-informations/legal-structures": {
-      "get": {
-        "tags": [
-          "Organisation"
-        ],
-        "summary": "Obtenir la structure juridique d'une organisation visible.",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/legal-informations/tax-information-texts": {
-      "get": {
-        "tags": [
-          "Organisation"
-        ],
-        "summary": "Obtenir les textes d'information fiscale de l'organisation.",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/legal-informations/{organizationSlug}/configuration": {
-      "get": {
-        "tags": [
-          "Organisation"
-        ],
-        "summary": "Obtenir la configuration des informations juridiques de l'organisation.",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      },
-      "put": {
-        "tags": [
-          "Organisation"
-        ],
-        "summary": "Mettre à jour la configuration des informations juridiques de l'organisation.",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> OrganizationAdministration<br/><br/>",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/{organizationSlug}/payments/search": {
-      "get": {
-        "tags": [
-          "Paiements"
-        ],
-        "summary": "Rechercher des paiements.",
-        "description": "<p>Attention : Le compte total est désactivé, nous retournons la liste des paiements et le continuationToken. </p><p>Recherchez des paiements basés sur de nombreux critères La recherche doit utiliser au moins l'un des paramètres suivants : </p><ul><li>ID de l'organisation : paiements effectués pour cette organisation </li><li>Formulaire : Paiements effectués par ce formulaire en utilisant le couple ID du formulaire et type du formulaire </li><li>ID de l'utilisateur : Paiements effectués par cet utilisateur </li><li>États : Une liste d'états de paiement à filtrer. (si vide, tous les paiements seront retournés)</li><li>Plage de dates : En utilisant du et/ou au </li><li>Requête de recherche : Une liste de mots qui doivent être contenus soit sur les noms des payeurs ou des utilisateurs ou l'email </li><li>Montant du paiement : En centimes, qui doit exactement correspondre au montant des paiements (avec ou sans la contribution) </li></ul><p>L'ordre des résultats est également personnalisable : </p><ul><li>Le champ de tri peut être la date, la date de mise à jour ou la date de création </li><li>L'ordre peut être ascendant ou descendant<br><br><b>Votre token doit avoir l'un de ces rôles : </b><br>OrganizationAdmin<br><br>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br><br><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br> AccessTransactions<br><br></li></ul>",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/{organizationSlug}/tax-receipt/fiscal-receipt-transmitter": {
-      "put": {
-        "tags": [
-          "Reçus fiscaux"
-        ],
-        "summary": "Mettre à jour l'émetteur des reçus fiscaux",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/{organizationSlug}/tax-receipt/configuration": {
-      "get": {
-        "tags": [
-          "Reçus fiscaux"
-        ],
-        "summary": "Obtenir la configuration des reçus fiscaux",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      },
-      "put": {
-        "tags": [
-          "Reçus fiscaux"
-        ],
-        "summary": "Mettre à jour la configuration des reçus fiscaux",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
-    },
-    "/organizations/{organizationSlug}/tax-receipt/preview": {
-      "post": {
-        "tags": [
-          "Reçus fiscaux"
-        ],
-        "summary": "Prévisualiser les reçus fiscaux",
-        "description": "<br/><br/><b>Votre token doit avoir l'un de ces rôles : </b><br/>OrganizationAdmin<br/>FormAdmin<br/><br/>Si vous êtes une <b>association</b>, vous pouvez obtenir ces rôles avec votre client.<br/>Si vous êtes un <b>partenaire</b>, vous pouvez obtenir ces rôles par le flux d'autorisation.<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> RefundManagement<br/><br/>",
-        "security": [
-          {
-            "OAuth2": []
-          }
-        ]
-      }
     }
   },
   "components": {
@@ -3334,7 +3217,7 @@
         "additionalProperties": false,
         "description": "PlaceModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_PartnerOrganizationModel": {
         "title": "ResultsWithPaginationModel<PartnerOrganizationModel>",
         "type": "object",
         "properties": {
@@ -3353,7 +3236,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_SynchronizableFormModel": {
         "title": "ResultsWithPaginationModel<SynchronizableFormModel>",
         "type": "object",
         "properties": {
@@ -3372,7 +3255,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_SynchronizableOrganizationModel": {
         "title": "ResultsWithPaginationModel<SynchronizableOrganizationModel>",
         "type": "object",
         "properties": {
@@ -3391,7 +3274,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Forms.FormLightModel, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_FormLightModel": {
         "title": "ResultsWithPaginationModel<FormLightModel>",
         "type": "object",
         "properties": {
@@ -3410,7 +3293,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Item, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_Item": {
         "title": "ResultsWithPaginationModel<Item>",
         "type": "object",
         "properties": {
@@ -3429,7 +3312,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Order, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_Order": {
         "title": "ResultsWithPaginationModel<Order>",
         "type": "object",
         "properties": {
@@ -3448,7 +3331,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel`1[[HelloAsso.Api.V5.Common.Models.Statistics.Payment, HelloAsso.Api.V5.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+      "ResultsWithPaginationModel_Payment": {
         "title": "ResultsWithPaginationModel<Payment>",
         "type": "object",
         "properties": {

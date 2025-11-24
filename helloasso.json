@@ -2982,6 +2982,16 @@
         },
         "additionalProperties": false
       },
+      "HelloAsso.Api.V5.Common.Models.Carts.CheckoutPaymentOptions": {
+        "type": "object",
+        "properties": {
+          "enableSepa": {
+            "type": "boolean",
+            "description": "Metadata (optional)\r\nWhether if this checkout is eligible for SEPA payment"
+          }
+        },
+        "additionalProperties": false
+      },
       "HelloAsso.Api.V5.Common.Models.Carts.CheckoutTerm": {
         "required": [
           "amount",
@@ -3063,6 +3073,9 @@
           "metadata": {
             "description": "Metadata (optional)\r\nJson object (max length : 20000)",
             "nullable": true
+          },
+          "paymentOptions": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.CheckoutPaymentOptions"
           }
         },
         "additionalProperties": false

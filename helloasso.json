@@ -1616,17 +1616,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationPublicModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationPublicModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationPublicModel"
                 }
               }
             }
@@ -2427,19 +2427,28 @@
             "name": "x-mfa-access-authorization",
             "in": "header",
             "description": "Must be filled only if AuthorizationErrors.MFA.AccessTokenRequired error code was returned previously.",
-            "allowEmptyValue": true
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string"
+            }
           },
           {
             "name": "x-mfa-sms-access-authorization",
             "in": "header",
             "description": "Must be filled only if AuthorizationErrors.MFA.AccessOtpSmsRequired error code was returned previously.",
-            "allowEmptyValue": true
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string"
+            }
           },
           {
             "name": "x-mfa-password-authorization",
             "in": "header",
             "description": "Must be filled only if AuthorizationErrors.MFA.AccessPasswordTokenRequired error code was returned previously.",
-            "allowEmptyValue": true
+            "allowEmptyValue": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -2575,7 +2584,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationLightModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationLightModel"
                   }
                 }
               },
@@ -2583,7 +2592,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationLightModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationLightModel"
                   }
                 }
               },
@@ -2591,7 +2600,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationLightModel"
+                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationLightModel"
                   }
                 }
               }
@@ -3185,6 +3194,24 @@
         "additionalProperties": false,
         "description": "DocumentModel class"
       },
+      "HelloAsso.Api.V5.Common.Models.Common.ImageModel": {
+        "type": "object",
+        "properties": {
+          "caption": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "HelloAsso.Api.V5.Common.Models.Common.MetaModel": {
         "type": "object",
         "properties": {
@@ -3409,6 +3436,20 @@
         },
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
+      },
+      "HelloAsso.Api.V5.Common.Models.Common.VideoModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "HelloAsso.Api.V5.Common.Models.ComplianceV2.Documents.DocumentState": {
         "enum": [
@@ -3866,7 +3907,7 @@
             "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.RecordActionType"
           },
           "record": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organization.OrganizationBasicModel"
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationBasicModel"
           }
         },
         "additionalProperties": false,
@@ -4852,7 +4893,7 @@
         "additionalProperties": false,
         "description": "TierPublicModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Organization.OrganizationBasicModel": {
+      "HelloAsso.Api.V5.Common.Models.Organizations.OrganizationBasicModel": {
         "type": "object",
         "properties": {
           "url": {
@@ -4869,7 +4910,7 @@
         "additionalProperties": false,
         "description": "A basic organization model"
       },
-      "HelloAsso.Api.V5.Common.Models.Organization.OrganizationLightModel": {
+      "HelloAsso.Api.V5.Common.Models.Organizations.OrganizationLightModel": {
         "type": "object",
         "properties": {
           "logo": {
@@ -4924,9 +4965,41 @@
         "additionalProperties": false,
         "description": "OrganizationLightModel class"
       },
-      "HelloAsso.Api.V5.Common.Models.Organization.OrganizationModel": {
+      "HelloAsso.Api.V5.Common.Models.Organizations.OrganizationPublicModel": {
         "type": "object",
         "properties": {
+          "facebookPage": {
+            "type": "string",
+            "nullable": true
+          },
+          "galleryImages": {
+            "title": "List<ImageModel>",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ImageModel"
+            },
+            "nullable": true
+          },
+          "longDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "twitterPage": {
+            "type": "string",
+            "nullable": true
+          },
+          "videos": {
+            "title": "List<VideoModel>",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.VideoModel"
+            },
+            "nullable": true
+          },
+          "webSite": {
+            "type": "string",
+            "nullable": true
+          },
           "isAuthenticated": {
             "type": "boolean",
             "description": "The organization is authenticated. Property returned only when asked by an organization admin.",
@@ -5020,8 +5093,7 @@
             "nullable": true
           }
         },
-        "additionalProperties": false,
-        "description": "OrganizationsModel class"
+        "additionalProperties": false
       },
       "HelloAsso.Api.V5.Common.Models.Partners.PartnerPublicModel": {
         "type": "object",

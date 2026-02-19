@@ -214,17 +214,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableFormModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableFormModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableFormModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableFormModel"
                 }
               }
             }
@@ -301,17 +301,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableOrganizationModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableOrganizationModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_SynchronizableOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableOrganizationModel"
                 }
               }
             }
@@ -705,17 +705,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_FormLightModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_FormLightModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_FormLightModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_FormLightModel"
                 }
               }
             }
@@ -1315,17 +1315,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
                 }
               }
             }
@@ -1451,17 +1451,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Order"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
                 }
               }
             }
@@ -1989,17 +1989,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_PartnerOrganizationModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_PartnerOrganizationModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_PartnerOrganizationModel"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_PartnerOrganizationModel"
                 }
               }
             }
@@ -2205,17 +2205,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
                 }
               }
             }
@@ -2340,17 +2340,17 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
                 }
               },
               "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
                 }
               },
               "text/csv": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResultsWithPaginationModel_Payment"
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
                 }
               }
             }
@@ -2478,17 +2478,8 @@
           "403": {
             "description": "The JWT token hasn't the privileges or Roles for this action"
           },
-          "409 - AuthorizationErrors.MFA.AccessTokenRequired": {
-            "description": "MFA token not found <br/><br/> A MFA token is expected in x-mfa-access-authorization header or in cookie mfa-{protectedOperation}-{organizationId}."
-          },
-          "409 - AuthorizationErrors.MFA.AccessOtpSmsRequired": {
-            "description": "MFA access otp sms not found <br/><br/> A MFA token is expected in x-mfa-sms-access-authorization header or in cookie mfa-{protectedOperation}-{organizationId}-otp-sms."
-          },
-          "409 - AuthorizationErrors.MFA.AccessPasswordTokenRequired": {
-            "description": "MFA access password token not found <br/><br/> A MFA token is expected in x-mfa-password-authorization header or in cookie mfa-{protectedOperation}-{organizationId}-pwd."
-          },
-          "409 - AuthorizationErrors.UserNotEnrolled": {
-            "description": "User 123 not enrolled"
+          "409": {
+            "description": "### Multi-Factor Authentication Required\nThis endpoint requires MFA. Below are the possible error codes and required headers:\n\n---\n**Code: `AuthorizationErrors.MFA.AccessTokenRequired`**  \nMFA token not found <br/><br/> A MFA token is expected in x-mfa-access-authorization header or in cookie mfa-{protectedOperation}-{organizationId}.\n\n---\n**Code: `AuthorizationErrors.MFA.AccessOtpSmsRequired`**  \nMFA access otp sms not found <br/><br/> A MFA token is expected in x-mfa-sms-access-authorization header or in cookie mfa-{protectedOperation}-{organizationId}-otp-sms.\n\n---\n**Code: `AuthorizationErrors.MFA.AccessPasswordTokenRequired`**  \nMFA access password token not found <br/><br/> A MFA token is expected in x-mfa-password-authorization header or in cookie mfa-{protectedOperation}-{organizationId}-pwd.\n\n---\n**Code: `AuthorizationErrors.UserNotEnrolled`**  \nUser 123 not enrolled"
           }
         },
         "security": [
@@ -3304,64 +3295,7 @@
         "additionalProperties": false,
         "description": "PlaceModel class"
       },
-      "ResultsWithPaginationModel_PartnerOrganizationModel": {
-        "title": "ResultsWithPaginationModel<PartnerOrganizationModel>",
-        "type": "object",
-        "properties": {
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel"
-            },
-            "description": "Data property",
-            "nullable": true
-          },
-          "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
-          }
-        },
-        "additionalProperties": false,
-        "description": "ResultsWithPaginationModel class"
-      },
-      "ResultsWithPaginationModel_SynchronizableFormModel": {
-        "title": "ResultsWithPaginationModel<SynchronizableFormModel>",
-        "type": "object",
-        "properties": {
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel"
-            },
-            "description": "Data property",
-            "nullable": true
-          },
-          "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
-          }
-        },
-        "additionalProperties": false,
-        "description": "ResultsWithPaginationModel class"
-      },
-      "ResultsWithPaginationModel_SynchronizableOrganizationModel": {
-        "title": "ResultsWithPaginationModel<SynchronizableOrganizationModel>",
-        "type": "object",
-        "properties": {
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel"
-            },
-            "description": "Data property",
-            "nullable": true
-          },
-          "pagination": {
-            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
-          }
-        },
-        "additionalProperties": false,
-        "description": "ResultsWithPaginationModel class"
-      },
-      "ResultsWithPaginationModel_FormLightModel": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_FormLightModel": {
         "title": "ResultsWithPaginationModel<FormLightModel>",
         "type": "object",
         "properties": {
@@ -3380,7 +3314,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "ResultsWithPaginationModel_Item": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Item": {
         "title": "ResultsWithPaginationModel<Item>",
         "type": "object",
         "properties": {
@@ -3399,7 +3333,7 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "ResultsWithPaginationModel_Order": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order": {
         "title": "ResultsWithPaginationModel<Order>",
         "type": "object",
         "properties": {
@@ -3418,7 +3352,26 @@
         "additionalProperties": false,
         "description": "ResultsWithPaginationModel class"
       },
-      "ResultsWithPaginationModel_Payment": {
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_PartnerOrganizationModel": {
+        "title": "ResultsWithPaginationModel<PartnerOrganizationModel>",
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.PartnerOrganizationModel"
+            },
+            "description": "Data property",
+            "nullable": true
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
+          }
+        },
+        "additionalProperties": false,
+        "description": "ResultsWithPaginationModel class"
+      },
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment": {
         "title": "ResultsWithPaginationModel<Payment>",
         "type": "object",
         "properties": {
@@ -3426,6 +3379,44 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.Payment"
+            },
+            "description": "Data property",
+            "nullable": true
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
+          }
+        },
+        "additionalProperties": false,
+        "description": "ResultsWithPaginationModel class"
+      },
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableFormModel": {
+        "title": "ResultsWithPaginationModel<SynchronizableFormModel>",
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.SynchronizableFormModel"
+            },
+            "description": "Data property",
+            "nullable": true
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.PaginationModel"
+          }
+        },
+        "additionalProperties": false,
+        "description": "ResultsWithPaginationModel class"
+      },
+      "HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableOrganizationModel": {
+        "title": "ResultsWithPaginationModel<SynchronizableOrganizationModel>",
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Directory.SynchronizableOrganizationModel"
             },
             "description": "Data property",
             "nullable": true

@@ -3475,6 +3475,11 @@
             "description": "The organization is authenticated. Property returned only when asked by an organization admin.",
             "nullable": true
           },
+          "displayCoordinates": {
+            "type": "boolean",
+            "description": "If the organization chose to display its coordinates. Property returned only when asked by an organization admin.",
+            "nullable": true
+          },
           "isCashInCompliant": {
             "type": "boolean",
             "description": "If transaction can be init on the organization or not. Property returned only when asked by an organization admin.",
@@ -4996,6 +5001,11 @@
             "description": "The organization is authenticated. Property returned only when asked by an organization admin.",
             "nullable": true
           },
+          "displayCoordinates": {
+            "type": "boolean",
+            "description": "If the organization chose to display its coordinates. Property returned only when asked by an organization admin.",
+            "nullable": true
+          },
           "isCashInCompliant": {
             "type": "boolean",
             "description": "If transaction can be init on the organization or not. Property returned only when asked by an organization admin.",
@@ -6204,6 +6214,12 @@
       "HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail": {
         "type": "object",
         "properties": {
+          "cardExpirationDate": {
+            "type": "string",
+            "description": "Card expiration date (only for card payments)",
+            "format": "date-time",
+            "nullable": true
+          },
           "order": {
             "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderLight"
           },

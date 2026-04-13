@@ -47,24 +47,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.CheckoutIntentResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.CheckoutIntentResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.CheckoutIntentResponse"
-                }
-              }
-            }
+            "description": "Checkout intent found"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -123,24 +106,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Carts.InitCheckoutResponse"
-                }
-              }
-            }
+            "description": "Checkout intent initiated successfully"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -210,24 +176,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableFormModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableFormModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableFormModel"
-                }
-              }
-            }
+            "description": "Get Form List"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -297,24 +246,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableOrganizationModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableOrganizationModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_SynchronizableOrganizationModel"
-                }
-              }
-            }
+            "description": "Get Organization List"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -328,6 +260,52 @@
             "OAuth2": []
           }
         ]
+      }
+    },
+    "/organizations/{organizationSlug}/forms/{formType}/{formSlug}/stats": {
+      "get": {
+        "tags": [
+          "Forms"
+        ],
+        "summary": "Get Stats for the form",
+        "description": "<br/><br/><b>Your token must have one of these roles : </b><br/>FormAdmin<br/>OrganizationAdmin<br/><br/>If you are an <b>association</b>, you can obtain these roles with your client.<br/>If you are a <b>partner</b>, you can obtain these roles by the authorize flow.<br/><br/><b>Your clientId must be allowed all of those privileges : </b> <br/> AccessPublicData<br/><br/>",
+        "parameters": [
+          {
+            "name": "organizationSlug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "formSlug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "formType",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Get Form stats"
+          },
+          "401": {
+            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
+          },
+          "403": {
+            "description": "The JWT token hasn't the privileges or Roles for this action"
+          }
+        }
       }
     },
     "/organizations/{organizationSlug}/forms/{formType}/action/quick-create": {
@@ -384,24 +362,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormQuickCreateModel"
-                }
-              }
-            }
+            "description": "Event Successfully created"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -476,7 +437,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Form successfully updated"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -522,24 +483,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormPublicModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormPublicModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormPublicModel"
-                }
-              }
-            }
+            "description": "Get a Form"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -587,33 +531,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
-                  }
-                }
-              }
-            }
+            "description": "Get form types created by the organization"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -701,24 +619,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_FormLightModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_FormLightModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_FormLightModel"
-                }
-              }
-            }
+            "description": "Get Form List"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -764,24 +665,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemDetail"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemDetail"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ItemDetail"
-                }
-              }
-            }
+            "description": "Get order item"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -946,7 +830,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "Get form order items",
             "content": {
               "application/json": {},
               "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {},
@@ -1108,7 +992,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "Get organization order items",
             "content": {
               "application/json": {},
               "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {},
@@ -1169,24 +1053,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderDetail"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderDetail"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderDetail"
-                }
-              }
-            }
+            "description": "Get order"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1311,24 +1178,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
-                }
-              }
-            }
+            "description": "Get form orders"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1447,24 +1297,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Order"
-                }
-              }
-            }
+            "description": "Get organization orders"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1547,36 +1380,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "title": "List<CashoutExportRowModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportRowModel"
-                  }
-                }
-              },
-              "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
-                "schema": {
-                  "title": "List<CashoutExportRowModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportRowModel"
-                  }
-                }
-              },
-              "text/csv": {
-                "schema": {
-                  "title": "List<CashoutExportRowModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.CashoutExport.CashoutExportRowModel"
-                  }
-                }
-              }
-            }
+            "description": "Get cash-out details"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1612,24 +1416,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationPublicModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationPublicModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationPublicModel"
-                }
-              }
-            }
+            "description": "Get Organization by slug"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1678,7 +1465,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Partner api client successfully updated"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1739,24 +1526,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
-                }
-              }
-            }
+            "description": "Partner Organization notification URL successfully updated."
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1798,7 +1568,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Partner organization notification url successfully deleted"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1848,24 +1618,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.ApiNotifications.ApiUrlNotificationModel"
-                }
-              }
-            }
+            "description": "Partner main notification URL successfully updated."
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1898,7 +1651,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Partner notification url successfully deleted"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1923,24 +1676,7 @@
         "description": "<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> AccessPublicData<br/><br/>",
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Partners.PartnerPublicModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Partners.PartnerPublicModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Partners.PartnerPublicModel"
-                }
-              }
-            }
+            "description": "Retrieve requesting partner detail"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -1985,24 +1721,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_PartnerOrganizationModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_PartnerOrganizationModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_PartnerOrganizationModel"
-                }
-              }
-            }
+            "description": "Get Organization List"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2048,24 +1767,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail"
-                }
-              }
-            }
+            "description": "Get payment"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2201,24 +1903,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
-                }
-              }
-            }
+            "description": "Get form payments"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2336,24 +2021,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
-                }
-              },
-              "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
-                }
-              },
-              "text/csv": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Common.ResultsWithPaginationModel_Payment"
-                }
-              }
-            }
+            "description": "Get organization payments"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2453,24 +2121,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.RefundOperationModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.RefundOperationModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Payment.RefundOperationModel"
-                }
-              }
-            }
+            "description": "The refund request has been registered"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2527,24 +2178,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.InternalTagModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.InternalTagModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.InternalTagModel"
-                }
-              }
-            }
+            "description": "Get tags Detail"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2569,33 +2203,7 @@
         "description": "Renvoie la liste des organisations où l'utilisateur connecté a des droits<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> AccessPublicData<br/><br/>",
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationLightModel"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationLightModel"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Organizations.OrganizationLightModel"
-                  }
-                }
-              }
-            }
+            "description": "Get organizations for user"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2630,36 +2238,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "title": "List<FormActivityModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormActivityModel"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "title": "List<FormActivityModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormActivityModel"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "title": "List<FormActivityModel>",
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormActivityModel"
-                  }
-                }
-              }
-            }
+            "description": "List of types available"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2679,33 +2258,7 @@
         "description": "Utilisez ceci afin de construire votre liste de catégories d'organisation<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> AccessPublicData<br/><br/>",
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.OrganismCategoryModel"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.OrganismCategoryModel"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.OrganismCategoryModel"
-                  }
-                }
-              }
-            }
+            "description": "List of organization categories"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2730,33 +2283,7 @@
         "description": "Utilisez ceci afin de récupérer la liste des étiquettes utilisées<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> AccessPublicData<br/><br/>",
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.PublicTagModel"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.PublicTagModel"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Tags.PublicTagModel"
-                  }
-                }
-              }
-            }
+            "description": "List of tags"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -2781,33 +2308,7 @@
         "description": "<br/><br/><b>Votre clientId doit être autorisé à tous ces privilèges : </b> <br/> AccessPublicData<br/><br/>",
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.CompanyLegalStatusModel"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.CompanyLegalStatusModel"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Accounts.CompanyLegalStatusModel"
-                  }
-                }
-              }
-            }
+            "description": "Company legal status list"
           },
           "401": {
             "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
@@ -3475,6 +2976,11 @@
             "description": "The organization is authenticated. Property returned only when asked by an organization admin.",
             "nullable": true
           },
+          "displayCoordinates": {
+            "type": "boolean",
+            "description": "If the organization chose to display its coordinates. Property returned only when asked by an organization admin.",
+            "nullable": true
+          },
           "isCashInCompliant": {
             "type": "boolean",
             "description": "If transaction can be init on the organization or not. Property returned only when asked by an organization admin.",
@@ -4008,7 +3514,8 @@
           "MenseCuriale",
           "SCIC",
           "SCOP",
-          "Autres"
+          "Autres",
+          "EPA"
         ],
         "type": "string"
       },
@@ -4727,6 +4234,12 @@
             "type": "boolean",
             "description": "Whether a reminder email should be sent for abandoned carts."
           },
+          "displayVersion": {
+            "type": "integer",
+            "description": "The form display version (only for membership).",
+            "format": "int32",
+            "nullable": true
+          },
           "maxEntries": {
             "type": "integer",
             "description": "Indicates the maximum available entries for the whole form. Null means unlimited entries.",
@@ -4745,6 +4258,36 @@
         },
         "additionalProperties": false,
         "description": "Update the from state"
+      },
+      "HelloAsso.Api.V5.Common.Models.Forms.FormStatsModel": {
+        "type": "object",
+        "properties": {
+          "totalParticipant": {
+            "type": "integer",
+            "description": "The number of participant for this event",
+            "format": "int32"
+          },
+          "unGroupedTiers": {
+            "title": "List<TierStatsModel>",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.TierStatsModel"
+            },
+            "description": "The list of ungrouped tiers, sorted as they must be displayed",
+            "nullable": true
+          },
+          "additionalOptions": {
+            "title": "List<TierStatsModel>",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.TierStatsModel"
+            },
+            "description": "The list of additional options, sorted as they must be displayed",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "FormStatsModel class"
       },
       "HelloAsso.Api.V5.Common.Models.Forms.TermModel": {
         "type": "object",
@@ -4884,6 +4427,61 @@
         "additionalProperties": false,
         "description": "TierPublicModel class"
       },
+      "HelloAsso.Api.V5.Common.Models.Forms.TierStatsModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "id",
+            "format": "int32"
+          },
+          "label": {
+            "type": "string",
+            "description": "label",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "description": "description",
+            "nullable": true
+          },
+          "entriesTaken": {
+            "type": "integer",
+            "description": "The number of times this tier as been taken",
+            "format": "int32"
+          },
+          "maxEntries": {
+            "type": "integer",
+            "description": "The max number of times this tier can be sold",
+            "format": "int32",
+            "nullable": true
+          },
+          "price": {
+            "type": "integer",
+            "description": "the Price in cents\r\nif price equals 0 then it is free or there is a MinAmount",
+            "format": "int32",
+            "nullable": true
+          },
+          "minAmount": {
+            "type": "integer",
+            "description": "If set, it means the payment is free to choose, according to the specified minAmount in cents",
+            "format": "int32",
+            "nullable": true
+          },
+          "priceCategory": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PriceCategory"
+          },
+          "tierType": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TierType"
+          },
+          "isEnabled": {
+            "type": "boolean",
+            "description": "is true if tier state is ENABLED\r\nis false if tier state is DISABLED"
+          }
+        },
+        "additionalProperties": false,
+        "description": "TierStatsModel class"
+      },
       "HelloAsso.Api.V5.Common.Models.Organizations.OrganizationBasicModel": {
         "type": "object",
         "properties": {
@@ -4994,6 +4592,11 @@
           "isAuthenticated": {
             "type": "boolean",
             "description": "The organization is authenticated. Property returned only when asked by an organization admin.",
+            "nullable": true
+          },
+          "displayCoordinates": {
+            "type": "boolean",
+            "description": "If the organization chose to display its coordinates. Property returned only when asked by an organization admin.",
             "nullable": true
           },
           "isCashInCompliant": {
@@ -6204,6 +5807,12 @@
       "HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail": {
         "type": "object",
         "properties": {
+          "cardExpirationDate": {
+            "type": "string",
+            "description": "Card expiration date (only for card payments)",
+            "format": "date-time",
+            "nullable": true
+          },
           "order": {
             "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderLight"
           },

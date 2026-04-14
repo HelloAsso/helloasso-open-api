@@ -330,6 +330,69 @@
         ]
       }
     },
+    "/organizations/{organizationSlug}/forms/{formType}/{formSlug}/stats": {
+      "get": {
+        "tags": [
+          "Forms"
+        ],
+        "summary": "Get Stats for the form",
+        "description": "<br/><br/><b>Your token must have one of these roles : </b><br/>FormAdmin<br/>OrganizationAdmin<br/><br/>If you are an <b>association</b>, you can obtain these roles with your client.<br/>If you are a <b>partner</b>, you can obtain these roles by the authorize flow.<br/><br/><b>Your clientId must be allowed all of those privileges : </b> <br/> AccessPublicData<br/><br/>",
+        "parameters": [
+          {
+            "name": "organizationSlug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "formSlug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "formType",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.FormType"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormStatsModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormStatsModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.FormStatsModel"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized, you must add a valid JWT into Authorization Header with the format : `Bearer TOKEN`"
+          },
+          "403": {
+            "description": "The JWT token hasn't the privileges or Roles for this action"
+          }
+        }
+      }
+    },
     "/organizations/{organizationSlug}/forms/{formType}/action/quick-create": {
       "post": {
         "tags": [
@@ -3475,6 +3538,11 @@
             "description": "The organization is authenticated. Property returned only when asked by an organization admin.",
             "nullable": true
           },
+          "displayCoordinates": {
+            "type": "boolean",
+            "description": "If the organization chose to display its coordinates. Property returned only when asked by an organization admin.",
+            "nullable": true
+          },
           "isCashInCompliant": {
             "type": "boolean",
             "description": "If transaction can be init on the organization or not. Property returned only when asked by an organization admin.",
@@ -4008,7 +4076,8 @@
           "MenseCuriale",
           "SCIC",
           "SCOP",
-          "Autres"
+          "Autres",
+          "EPA"
         ],
         "type": "string"
       },
@@ -4727,6 +4796,12 @@
             "type": "boolean",
             "description": "Whether a reminder email should be sent for abandoned carts."
           },
+          "displayVersion": {
+            "type": "integer",
+            "description": "The form display version (only for membership).",
+            "format": "int32",
+            "nullable": true
+          },
           "maxEntries": {
             "type": "integer",
             "description": "Indicates the maximum available entries for the whole form. Null means unlimited entries.",
@@ -4745,6 +4820,36 @@
         },
         "additionalProperties": false,
         "description": "Update the from state"
+      },
+      "HelloAsso.Api.V5.Common.Models.Forms.FormStatsModel": {
+        "type": "object",
+        "properties": {
+          "totalParticipant": {
+            "type": "integer",
+            "description": "The number of participant for this event",
+            "format": "int32"
+          },
+          "unGroupedTiers": {
+            "title": "List<TierStatsModel>",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.TierStatsModel"
+            },
+            "description": "The list of ungrouped tiers, sorted as they must be displayed",
+            "nullable": true
+          },
+          "additionalOptions": {
+            "title": "List<TierStatsModel>",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.TierStatsModel"
+            },
+            "description": "The list of additional options, sorted as they must be displayed",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "FormStatsModel class"
       },
       "HelloAsso.Api.V5.Common.Models.Forms.TermModel": {
         "type": "object",
@@ -4884,6 +4989,61 @@
         "additionalProperties": false,
         "description": "TierPublicModel class"
       },
+      "HelloAsso.Api.V5.Common.Models.Forms.TierStatsModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "id",
+            "format": "int32"
+          },
+          "label": {
+            "type": "string",
+            "description": "label",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "description": "description",
+            "nullable": true
+          },
+          "entriesTaken": {
+            "type": "integer",
+            "description": "The number of times this tier as been taken",
+            "format": "int32"
+          },
+          "maxEntries": {
+            "type": "integer",
+            "description": "The max number of times this tier can be sold",
+            "format": "int32",
+            "nullable": true
+          },
+          "price": {
+            "type": "integer",
+            "description": "the Price in cents\r\nif price equals 0 then it is free or there is a MinAmount",
+            "format": "int32",
+            "nullable": true
+          },
+          "minAmount": {
+            "type": "integer",
+            "description": "If set, it means the payment is free to choose, according to the specified minAmount in cents",
+            "format": "int32",
+            "nullable": true
+          },
+          "priceCategory": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.PriceCategory"
+          },
+          "tierType": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.TierType"
+          },
+          "isEnabled": {
+            "type": "boolean",
+            "description": "is true if tier state is ENABLED\r\nis false if tier state is DISABLED"
+          }
+        },
+        "additionalProperties": false,
+        "description": "TierStatsModel class"
+      },
       "HelloAsso.Api.V5.Common.Models.Organizations.OrganizationBasicModel": {
         "type": "object",
         "properties": {
@@ -4994,6 +5154,11 @@
           "isAuthenticated": {
             "type": "boolean",
             "description": "The organization is authenticated. Property returned only when asked by an organization admin.",
+            "nullable": true
+          },
+          "displayCoordinates": {
+            "type": "boolean",
+            "description": "If the organization chose to display its coordinates. Property returned only when asked by an organization admin.",
             "nullable": true
           },
           "isCashInCompliant": {
@@ -6204,6 +6369,12 @@
       "HelloAsso.Api.V5.Common.Models.Statistics.PaymentDetail": {
         "type": "object",
         "properties": {
+          "cardExpirationDate": {
+            "type": "string",
+            "description": "Card expiration date (only for card payments)",
+            "format": "date-time",
+            "nullable": true
+          },
           "order": {
             "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.OrderLight"
           },

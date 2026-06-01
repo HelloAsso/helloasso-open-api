@@ -1228,6 +1228,15 @@
               "type": "boolean",
               "default": false
             }
+          },
+          {
+            "name": "checkPaymentsRefundEligibility",
+            "in": "query",
+            "description": "Set to true to check if payments are eligible to refund or not",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
           }
         ],
         "responses": {
@@ -6139,6 +6148,11 @@
               "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.ShareItem"
             },
             "description": "Items linked to this payment and each share between the item and the payment",
+            "nullable": true
+          },
+          "isRefundable": {
+            "type": "boolean",
+            "description": "Indicate if the payment is refundable or not",
             "nullable": true
           },
           "cashOutDate": {

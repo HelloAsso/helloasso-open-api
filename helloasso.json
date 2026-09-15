@@ -1228,6 +1228,15 @@
               "type": "boolean",
               "default": false
             }
+          },
+          {
+            "name": "checkPaymentsRefundEligibility",
+            "in": "query",
+            "description": "Set to true to check if payments are eligible to refund or not",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
           }
         ],
         "responses": {
@@ -5442,6 +5451,21 @@
         "additionalProperties": false,
         "description": "RefundOperationModel class"
       },
+      "HelloAsso.Api.V5.Common.Models.Statistics.FormDisplayType": {
+        "enum": [
+          "CrowdFunding",
+          "Membership",
+          "Event",
+          "Donation",
+          "PaymentForm",
+          "Checkout",
+          "Shop",
+          "Other",
+          "Sale"
+        ],
+        "type": "string",
+        "description": "Extended FormType enum for display purpose.\r\nAdds Other and Sale (tap to pay values) to the FormType enum."
+      },
       "HelloAsso.Api.V5.Common.Models.Statistics.Item": {
         "type": "object",
         "properties": {
@@ -6141,6 +6165,11 @@
             "description": "Items linked to this payment and each share between the item and the payment",
             "nullable": true
           },
+          "isRefundable": {
+            "type": "boolean",
+            "description": "Indicate if the payment is refundable or not",
+            "nullable": true
+          },
           "cashOutDate": {
             "type": "string",
             "description": "The date of the cash out",
@@ -6287,6 +6316,9 @@
             "description": "Items linked to this payment",
             "nullable": true
           },
+          "displayData": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentDisplayData"
+          },
           "cashOutDate": {
             "type": "string",
             "description": "The date of the cash out",
@@ -6389,6 +6421,9 @@
             "description": "Items linked to this payment",
             "nullable": true
           },
+          "displayData": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.PaymentDisplayData"
+          },
           "cashOutDate": {
             "type": "string",
             "description": "The date of the cash out",
@@ -6464,6 +6499,19 @@
             },
             "description": "The refund operations information for the specific payment.",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HelloAsso.Api.V5.Common.Models.Statistics.PaymentDisplayData": {
+        "type": "object",
+        "properties": {
+          "formDisplayType": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Statistics.FormDisplayType"
+          },
+          "isTapToPay": {
+            "type": "boolean",
+            "description": "Whether or not the payment was made using tap to pay."
           }
         },
         "additionalProperties": false

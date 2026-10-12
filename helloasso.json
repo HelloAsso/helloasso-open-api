@@ -4217,7 +4217,8 @@
           "OfflineDonation",
           "Contribution",
           "Bonus",
-          "Product"
+          "Product",
+          "Insurance"
         ],
         "type": "string"
       },

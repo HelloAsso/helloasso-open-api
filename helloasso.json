@@ -3981,6 +3981,14 @@
         "additionalProperties": false,
         "description": "SynchronizableOrganizationModel class"
       },
+      "HelloAsso.Api.V5.Common.Models.Enums.ActivityValidityType": {
+        "enum": [
+          "OneYear",
+          "Custom",
+          "Unlimited"
+        ],
+        "type": "string"
+      },
       "HelloAsso.Api.V5.Common.Models.Enums.FieldType": {
         "enum": [
           "Date",
@@ -4050,6 +4058,14 @@
           "Refused",
           "Aborted",
           "Canceled"
+        ],
+        "type": "string"
+      },
+      "HelloAsso.Api.V5.Common.Models.Enums.OptionActionState": {
+        "enum": [
+          "Enabled",
+          "Disabled",
+          "Deleted"
         ],
         "type": "string"
       },
@@ -4217,9 +4233,91 @@
           "OfflineDonation",
           "Contribution",
           "Bonus",
-          "Product"
+          "Product",
+          "Insurance"
         ],
         "type": "string"
+      },
+      "HelloAsso.Api.V5.Common.Models.Forms.Activities.ActivityPublicModel": {
+        "type": "object",
+        "properties": {
+          "tiers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.TierPublicModel"
+            },
+            "description": "Tiers attached to the activity",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "description": "Id of the activity",
+            "format": "int64"
+          },
+          "label": {
+            "type": "string",
+            "description": "Label of the activity",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the activity",
+            "nullable": true
+          },
+          "picture": {
+            "type": "string",
+            "description": "Picture of the activity",
+            "nullable": true
+          },
+          "state": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.OptionActionState"
+          },
+          "validityType": {
+            "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Enums.ActivityValidityType"
+          },
+          "validityStartDate": {
+            "type": "string",
+            "description": "Validity start date of the activity",
+            "format": "date-time",
+            "nullable": true
+          },
+          "validityEndDate": {
+            "type": "string",
+            "description": "Validity end date of the activity",
+            "format": "date-time",
+            "nullable": true
+          },
+          "maxEntries": {
+            "type": "integer",
+            "description": "Maximum number of entries of the activity",
+            "format": "int32",
+            "nullable": true
+          },
+          "maxEntriesPerCart": {
+            "type": "integer",
+            "description": "Maximum number of entries per cart of the activity",
+            "format": "int32",
+            "nullable": true
+          },
+          "showMaxEntries": {
+            "type": "boolean",
+            "description": "Display the max number of entries of the activity"
+          },
+          "usePriceGrid": {
+            "type": "boolean",
+            "description": "Whether the activity uses a price grid"
+          },
+          "isEligibleTaxReceipt": {
+            "type": "boolean",
+            "description": "Whether the activity is eligible to a tax receipt"
+          },
+          "allowInstallmentPayment": {
+            "type": "boolean",
+            "description": "Whether the activity allows installment payment"
+          }
+        },
+        "additionalProperties": false,
+        "description": "ActivityPublicModel class"
       },
       "HelloAsso.Api.V5.Common.Models.Forms.CustomFieldPublicModel": {
         "type": "object",
@@ -4462,6 +4560,14 @@
               "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.TierPublicModel"
             },
             "description": "Tiers",
+            "nullable": true
+          },
+          "activities": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HelloAsso.Api.V5.Common.Models.Forms.Activities.ActivityPublicModel"
+            },
+            "description": "Activities of the form with their attached tiers\r\nNull when the form has no activity",
             "nullable": true
           },
           "activityType": {
@@ -5048,6 +5154,17 @@
           "isEnabled": {
             "type": "boolean",
             "description": "is true if tier state is ENABLED\r\nis false if tier state is DISABLED"
+          },
+          "activityId": {
+            "type": "integer",
+            "description": "Id of the activity this tier is attached to, null for standalone/legacy tiers",
+            "format": "int64",
+            "nullable": true
+          },
+          "activityLabel": {
+            "type": "string",
+            "description": "Label of the activity this tier is attached to, null for standalone/legacy tiers",
+            "nullable": true
           }
         },
         "additionalProperties": false,
@@ -5533,6 +5650,17 @@
             "description": "The Membership Card Url",
             "nullable": true
           },
+          "isScanned": {
+            "type": "boolean",
+            "description": "Whether the ticket has already been scanned/validated (only relevant when GenerateTicket is true)",
+            "nullable": true
+          },
+          "ticketValidationDate": {
+            "type": "string",
+            "description": "The date the ticket was scanned/validated",
+            "format": "date-time",
+            "nullable": true
+          },
           "dayOfLevy": {
             "type": "integer",
             "description": "The day of levy for monthly donation only",
@@ -5542,6 +5670,17 @@
           "tierDescription": {
             "type": "string",
             "description": "Tier description",
+            "nullable": true
+          },
+          "activityLabel": {
+            "type": "string",
+            "description": "Label of the activity associated with the tier.",
+            "nullable": true
+          },
+          "activityId": {
+            "type": "integer",
+            "description": "Identifier of the activity associated with the tier.",
+            "format": "int64",
             "nullable": true
           },
           "tierId": {
@@ -5669,6 +5808,17 @@
             "description": "The Membership Card Url",
             "nullable": true
           },
+          "isScanned": {
+            "type": "boolean",
+            "description": "Whether the ticket has already been scanned/validated (only relevant when GenerateTicket is true)",
+            "nullable": true
+          },
+          "ticketValidationDate": {
+            "type": "string",
+            "description": "The date the ticket was scanned/validated",
+            "format": "date-time",
+            "nullable": true
+          },
           "dayOfLevy": {
             "type": "integer",
             "description": "The day of levy for monthly donation only",
@@ -5678,6 +5828,17 @@
           "tierDescription": {
             "type": "string",
             "description": "Tier description",
+            "nullable": true
+          },
+          "activityLabel": {
+            "type": "string",
+            "description": "Label of the activity associated with the tier.",
+            "nullable": true
+          },
+          "activityId": {
+            "type": "integer",
+            "description": "Identifier of the activity associated with the tier.",
+            "format": "int64",
             "nullable": true
           },
           "tierId": {
@@ -5784,12 +5945,18 @@
           },
           "amount": {
             "type": "integer",
-            "description": "Total Amount of the payment (in cents)",
+            "description": "Amount of the payment in cents, excluding tip and insurance.",
             "format": "int32"
           },
           "amountTip": {
             "type": "integer",
             "description": "Tip Amount of the payment (in cents)",
+            "format": "int32",
+            "nullable": true
+          },
+          "amountInsurance": {
+            "type": "integer",
+            "description": "Cancellation insurance amount of the payment in cents (0 if none). Not included in Amount.",
             "format": "int32",
             "nullable": true
           },
@@ -5909,7 +6076,7 @@
         "properties": {
           "total": {
             "type": "integer",
-            "description": "Total amount in cents",
+            "description": "Total amount in cents. When tip or insurance are returned, Total includes them.",
             "format": "int32"
           },
           "vat": {
@@ -6058,6 +6225,17 @@
             "description": "The Membership Card Url",
             "nullable": true
           },
+          "isScanned": {
+            "type": "boolean",
+            "description": "Whether the ticket has already been scanned/validated (only relevant when GenerateTicket is true)",
+            "nullable": true
+          },
+          "ticketValidationDate": {
+            "type": "string",
+            "description": "The date the ticket was scanned/validated",
+            "format": "date-time",
+            "nullable": true
+          },
           "dayOfLevy": {
             "type": "integer",
             "description": "The day of levy for monthly donation only",
@@ -6067,6 +6245,17 @@
           "tierDescription": {
             "type": "string",
             "description": "Tier description",
+            "nullable": true
+          },
+          "activityLabel": {
+            "type": "string",
+            "description": "Label of the activity associated with the tier.",
+            "nullable": true
+          },
+          "activityId": {
+            "type": "integer",
+            "description": "Identifier of the activity associated with the tier.",
+            "format": "int64",
             "nullable": true
           },
           "tierId": {
@@ -6202,12 +6391,18 @@
           },
           "amount": {
             "type": "integer",
-            "description": "Total Amount of the payment (in cents)",
+            "description": "Amount of the payment in cents, excluding tip and insurance.",
             "format": "int32"
           },
           "amountTip": {
             "type": "integer",
             "description": "Tip Amount of the payment (in cents)",
+            "format": "int32",
+            "nullable": true
+          },
+          "amountInsurance": {
+            "type": "integer",
+            "description": "Cancellation insurance amount of the payment in cents (0 if none). Not included in Amount.",
             "format": "int32",
             "nullable": true
           },
@@ -6351,12 +6546,18 @@
           },
           "amount": {
             "type": "integer",
-            "description": "Total Amount of the payment (in cents)",
+            "description": "Amount of the payment in cents, excluding tip and insurance.",
             "format": "int32"
           },
           "amountTip": {
             "type": "integer",
             "description": "Tip Amount of the payment (in cents)",
+            "format": "int32",
+            "nullable": true
+          },
+          "amountInsurance": {
+            "type": "integer",
+            "description": "Cancellation insurance amount of the payment in cents (0 if none). Not included in Amount.",
             "format": "int32",
             "nullable": true
           },
@@ -6456,12 +6657,18 @@
           },
           "amount": {
             "type": "integer",
-            "description": "Total Amount of the payment (in cents)",
+            "description": "Amount of the payment in cents, excluding tip and insurance.",
             "format": "int32"
           },
           "amountTip": {
             "type": "integer",
             "description": "Tip Amount of the payment (in cents)",
+            "format": "int32",
+            "nullable": true
+          },
+          "amountInsurance": {
+            "type": "integer",
+            "description": "Cancellation insurance amount of the payment in cents (0 if none). Not included in Amount.",
             "format": "int32",
             "nullable": true
           },
@@ -6535,6 +6742,17 @@
             "format": "int32",
             "nullable": true
           },
+          "activityLabel": {
+            "type": "string",
+            "description": "Label of the activity associated with the tier.",
+            "nullable": true
+          },
+          "activityId": {
+            "type": "integer",
+            "description": "Identifier of the activity associated with the tier.",
+            "format": "int64",
+            "nullable": true
+          },
           "id": {
             "type": "integer",
             "description": "ID of the Item",
@@ -6576,12 +6794,17 @@
           },
           "amount": {
             "type": "integer",
-            "description": "The amount for this refund.",
+            "description": "The amount for this refund, excluding tip and insurance.",
             "format": "int32"
           },
           "amountTip": {
             "type": "integer",
             "description": "The amount tip for this refund.",
+            "format": "int32"
+          },
+          "amountInsurance": {
+            "type": "integer",
+            "description": "Cancellation insurance amount refunded in cents (0 if none).",
             "format": "int32"
           },
           "status": {
@@ -6592,7 +6815,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "The refund operation with the Id, amount, amount tip and the status."
+        "description": "The refund operation with the Id, amount, amount tip, amount insurance and the status."
       },
       "HelloAsso.Api.V5.Common.Models.Statistics.ShareItem": {
         "type": "object",
